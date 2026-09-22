@@ -1,0 +1,20 @@
+{
+  "0.3": [
+    "the local dentist was mentioned in the treatment report yesterday .",
+    "the report about the brand explains the price in detail .",
+    "the different therapist was mentioned in the care report yesterday .",
+    "we learned about the local taxi during a discussion of route ."
+  ],
+  "0.8": [
+    "ravi did not cook rice today . he cooked eggs . what did ravi cooked pasta .",
+    "today the hospital focused on treatment and the different therapist .",
+    "today the station focused on travel and the local bicycle .",
+    "the pen is above the bag . the bag is below the pen ."
+  ],
+  "1.2": [
+    "ravi did not cook rice today . he cooked eggs . mentioned detail detail drank pasta . what did ivan cooked pasta .",
+    "the instead the cage was focused . the local software was open .",
+    "ben put the picture above the mirror . now the mirror is below the picture .",
+    "max wanted to drink lemonade , but he did not . he drank lemonade . theo and lucy ordered noodles ."
+  ]
+}

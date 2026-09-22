@@ -1,0 +1,176 @@
+[
+  {
+    "id": "rt_1",
+    "group": "recency_trap",
+    "category": "negation",
+    "prompt": "the kite is pink , not green . the kite is",
+    "choices": [
+      "pink",
+      "green",
+      "gray",
+      "white"
+    ],
+    "expected": "pink",
+    "predicted_choice": "green",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "pink": 0.020683160051703453,
+      "green": 0.02546587586402893,
+      "gray": 0.01694238744676113,
+      "white": 0.019785728305578232
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "customer .",
+    "prompt_truncated": false,
+    "reason": "recency trap probe",
+    "stage": "final",
+    "sample_seed": 2026
+  },
+  {
+    "id": "rt_2",
+    "group": "recency_trap",
+    "category": "negation",
+    "prompt": "the gate is broken , not locked . the gate is",
+    "choices": [
+      "broken",
+      "locked",
+      "clean",
+      "old"
+    ],
+    "expected": "broken",
+    "predicted_choice": "broken",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "broken": 0.028044799342751503,
+      "locked": 0.01939159445464611,
+      "clean": 0.02145853266119957,
+      "old": 0.01982656493782997
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "system .",
+    "prompt_truncated": false,
+    "reason": "recency trap probe",
+    "stage": "final",
+    "sample_seed": 2027
+  },
+  {
+    "id": "rt_3",
+    "group": "recency_trap",
+    "category": "negation",
+    "prompt": "max ate cheese , not rice . max ate",
+    "choices": [
+      "cheese",
+      "rice",
+      "bread",
+      "cake"
+    ],
+    "expected": "cheese",
+    "predicted_choice": "rice",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "cheese": 0.009432378225028515,
+      "rice": 0.010904563590884209,
+      "bread": 0.009114468470215797,
+      "cake": 0.004935452714562416
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "does the book .",
+    "prompt_truncated": false,
+    "reason": "recency trap probe",
+    "stage": "final",
+    "sample_seed": 2028
+  },
+  {
+    "id": "rt_4",
+    "group": "recency_trap",
+    "category": "negation",
+    "prompt": "zoe drank cocoa , not cider . zoe drank",
+    "choices": [
+      "cocoa",
+      "cider",
+      "tea",
+      "juice"
+    ],
+    "expected": "cocoa",
+    "predicted_choice": "cocoa",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "cocoa": 0.010436585173010826,
+      "cider": 0.008709974586963654,
+      "tea": 0.005664053373038769,
+      "juice": 0.003783740568906069
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "beans .",
+    "prompt_truncated": false,
+    "reason": "recency trap probe",
+    "stage": "final",
+    "sample_seed": 2029
+  },
+  {
+    "id": "rt_5",
+    "group": "recency_trap",
+    "category": "negation",
+    "prompt": "the drawer is clean , not dirty . the drawer is",
+    "choices": [
+      "clean",
+      "dirty",
+      "old",
+      "wide"
+    ],
+    "expected": "clean",
+    "predicted_choice": "wide",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "clean": 0.022456424310803413,
+      "dirty": 0.018140513449907303,
+      "old": 0.019414599984884262,
+      "wide": 0.02899532951414585
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "application .",
+    "prompt_truncated": false,
+    "reason": "recency trap probe",
+    "stage": "final",
+    "sample_seed": 2030
+  },
+  {
+    "id": "rt_6",
+    "group": "recency_trap",
+    "category": "negation",
+    "prompt": "lily chose the pen , not the cup . lily chose the",
+    "choices": [
+      "pen",
+      "cup",
+      "hat",
+      "key"
+    ],
+    "expected": "pen",
+    "predicted_choice": "cup",
+    "score": 0,
+    "status": "scored",
+    "choice_probabilities": {
+      "pen": 0.01885710097849369,
+      "cup": 0.021171892061829567,
+      "hat": 0.015069859102368355,
+      "key": 0.017640551552176476
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "door .",
+    "prompt_truncated": false,
+    "reason": "recency trap probe",
+    "stage": "final",
+    "sample_seed": 2031
+  }
+]

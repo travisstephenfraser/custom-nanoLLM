@@ -1,0 +1,96 @@
+{
+  "suite_id": "recency-trap-probes-v1",
+  "version": 1,
+  "authorship": "Written for this project AFTER the follow-up sweep. Not used for training, vocabulary, or corpus choices.",
+  "purpose": "In all three eval negation cases the correct word is also the most recent candidate, so 'copy the latest matching word' passes them. Here the correct word comes first and the negated word comes last, so that shortcut picks the wrong answer.",
+  "groups": {
+    "recency_trap": "Correct word first, negated word most recent"
+  },
+  "scoring": "Same as evals/language_evals.json: highest probability among four single-token choices.",
+  "cases": [
+    {
+      "id": "rt_1",
+      "group": "recency_trap",
+      "category": "negation",
+      "prompt": "the kite is pink , not green . the kite is",
+      "choices": [
+        "pink",
+        "green",
+        "gray",
+        "white"
+      ],
+      "answer": "pink",
+      "reason": "recency trap probe"
+    },
+    {
+      "id": "rt_2",
+      "group": "recency_trap",
+      "category": "negation",
+      "prompt": "the gate is broken , not locked . the gate is",
+      "choices": [
+        "broken",
+        "locked",
+        "clean",
+        "old"
+      ],
+      "answer": "broken",
+      "reason": "recency trap probe"
+    },
+    {
+      "id": "rt_3",
+      "group": "recency_trap",
+      "category": "negation",
+      "prompt": "max ate cheese , not rice . max ate",
+      "choices": [
+        "cheese",
+        "rice",
+        "bread",
+        "cake"
+      ],
+      "answer": "cheese",
+      "reason": "recency trap probe"
+    },
+    {
+      "id": "rt_4",
+      "group": "recency_trap",
+      "category": "negation",
+      "prompt": "zoe drank cocoa , not cider . zoe drank",
+      "choices": [
+        "cocoa",
+        "cider",
+        "tea",
+        "juice"
+      ],
+      "answer": "cocoa",
+      "reason": "recency trap probe"
+    },
+    {
+      "id": "rt_5",
+      "group": "recency_trap",
+      "category": "negation",
+      "prompt": "the drawer is clean , not dirty . the drawer is",
+      "choices": [
+        "clean",
+        "dirty",
+        "old",
+        "wide"
+      ],
+      "answer": "clean",
+      "reason": "recency trap probe"
+    },
+    {
+      "id": "rt_6",
+      "group": "recency_trap",
+      "category": "negation",
+      "prompt": "lily chose the pen , not the cup . lily chose the",
+      "choices": [
+        "pen",
+        "cup",
+        "hat",
+        "key"
+      ],
+      "answer": "pen",
+      "reason": "recency trap probe"
+    }
+  ]
+}

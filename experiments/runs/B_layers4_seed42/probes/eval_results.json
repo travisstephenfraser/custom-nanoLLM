@@ -1,0 +1,350 @@
+[
+  {
+    "id": "cf_31",
+    "group": "flip",
+    "category": "negation",
+    "prompt": "the box is not blue . it is red . the box is",
+    "choices": [
+      "green",
+      "yellow",
+      "blue",
+      "red"
+    ],
+    "expected": "red",
+    "predicted_choice": "red",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "green": 0.015618117526173592,
+      "yellow": 0.0029637059196829796,
+      "blue": 0.0012901424197480083,
+      "red": 0.563660740852356
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "ravi about the box is red .",
+    "prompt_truncated": false,
+    "reason": "counterfactual probe",
+    "stage": "final",
+    "sample_seed": 2026
+  },
+  {
+    "id": "cf_32",
+    "group": "flip",
+    "category": "negation",
+    "prompt": "ava did not buy milk . she bought tea . ava bought",
+    "choices": [
+      "rice",
+      "milk",
+      "tea",
+      "bread"
+    ],
+    "expected": "tea",
+    "predicted_choice": "tea",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "rice": 0.007528058253228664,
+      "milk": 0.04524535313248634,
+      "tea": 0.05777302011847496,
+      "bread": 0.015708094462752342
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "milk .",
+    "prompt_truncated": false,
+    "reason": "counterfactual probe",
+    "stage": "final",
+    "sample_seed": 2027
+  },
+  {
+    "id": "cf_33",
+    "group": "flip",
+    "category": "negation",
+    "prompt": "the door is not closed . it is open . the door is",
+    "choices": [
+      "closed",
+      "open",
+      "wide",
+      "missing"
+    ],
+    "expected": "open",
+    "predicted_choice": "open",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "closed": 0.006643455475568771,
+      "open": 0.1116248294711113,
+      "wide": 0.0017578122206032276,
+      "missing": 0.013730671256780624
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "black .",
+    "prompt_truncated": false,
+    "reason": "counterfactual probe",
+    "stage": "final",
+    "sample_seed": 2028
+  },
+  {
+    "id": "cf_40",
+    "group": "flip",
+    "category": "spatial_relations",
+    "prompt": "the bag is inside the box . the box contains the",
+    "choices": [
+      "lamp",
+      "bag",
+      "shelf",
+      "desk"
+    ],
+    "expected": "bag",
+    "predicted_choice": "bag",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "lamp": 0.00021266377007123083,
+      "bag": 0.9301160573959351,
+      "shelf": 4.011585588159505e-06,
+      "desk": 2.149045940313954e-06
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "bag .",
+    "prompt_truncated": false,
+    "reason": "counterfactual probe",
+    "stage": "final",
+    "sample_seed": 2029
+  },
+  {
+    "id": "cf_41",
+    "group": "flip",
+    "category": "spatial_relations",
+    "prompt": "the lamp is below the desk . the desk is",
+    "choices": [
+      "below",
+      "above",
+      "inside",
+      "beside"
+    ],
+    "expected": "above",
+    "predicted_choice": "above",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "below": 0.001276425551623106,
+      "above": 0.990143895149231,
+      "inside": 6.736461364198476e-05,
+      "beside": 0.0001630134356673807
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "above the lamp .",
+    "prompt_truncated": false,
+    "reason": "counterfactual probe",
+    "stage": "final",
+    "sample_seed": 2030
+  },
+  {
+    "id": "cf_42",
+    "group": "flip",
+    "category": "spatial_relations",
+    "prompt": "the ball is right of the box . the box is to the",
+    "choices": [
+      "left",
+      "north",
+      "south",
+      "right"
+    ],
+    "expected": "left",
+    "predicted_choice": "left",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "left": 0.7129195332527161,
+      "north": 0.0012462864397093654,
+      "south": 0.00028797145932912827,
+      "right": 0.05770708993077278
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "left of the ball .",
+    "prompt_truncated": false,
+    "reason": "counterfactual probe",
+    "stage": "final",
+    "sample_seed": 2031
+  },
+  {
+    "id": "nw_n1",
+    "group": "fresh",
+    "category": "negation",
+    "prompt": "the kite is not green . it is pink . the kite is",
+    "choices": [
+      "green",
+      "pink",
+      "gray",
+      "white"
+    ],
+    "expected": "pink",
+    "predicted_choice": "pink",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "green": 0.00570278475061059,
+      "pink": 0.5459699034690857,
+      "gray": 0.004778456408530474,
+      "white": 0.07175738364458084
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "black .",
+    "prompt_truncated": false,
+    "reason": "counterfactual probe",
+    "stage": "final",
+    "sample_seed": 2032
+  },
+  {
+    "id": "nw_n2",
+    "group": "fresh",
+    "category": "negation",
+    "prompt": "max did not eat rice . he ate cheese . max ate",
+    "choices": [
+      "rice",
+      "cheese",
+      "bread",
+      "cake"
+    ],
+    "expected": "cheese",
+    "predicted_choice": "cheese",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "rice": 0.03230402246117592,
+      "cheese": 0.6601774096488953,
+      "bread": 0.05761660262942314,
+      "cake": 0.0039417496882379055
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "cheese .",
+    "prompt_truncated": false,
+    "reason": "counterfactual probe",
+    "stage": "final",
+    "sample_seed": 2033
+  },
+  {
+    "id": "nw_n3",
+    "group": "fresh",
+    "category": "negation",
+    "prompt": "the gate is not locked . it is broken . the gate is",
+    "choices": [
+      "locked",
+      "broken",
+      "clean",
+      "old"
+    ],
+    "expected": "broken",
+    "predicted_choice": "broken",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "locked": 0.002625691471621394,
+      "broken": 0.9039478302001953,
+      "clean": 0.0031850640662014484,
+      "old": 0.004447776824235916
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "broken .",
+    "prompt_truncated": false,
+    "reason": "counterfactual probe",
+    "stage": "final",
+    "sample_seed": 2034
+  },
+  {
+    "id": "nw_s1",
+    "group": "fresh",
+    "category": "spatial_relations",
+    "prompt": "the clock is below the mirror . the mirror is",
+    "choices": [
+      "below",
+      "above",
+      "inside",
+      "beside"
+    ],
+    "expected": "above",
+    "predicted_choice": "above",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "below": 0.0029551363550126553,
+      "above": 0.9951089024543762,
+      "inside": 1.6581414456595667e-05,
+      "beside": 0.00027276057517156005
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "above the clock .",
+    "prompt_truncated": false,
+    "reason": "counterfactual probe",
+    "stage": "final",
+    "sample_seed": 2035
+  },
+  {
+    "id": "nw_s2",
+    "group": "fresh",
+    "category": "spatial_relations",
+    "prompt": "the coin is inside the jar . the jar contains the",
+    "choices": [
+      "coin",
+      "jar",
+      "key",
+      "ring"
+    ],
+    "expected": "coin",
+    "predicted_choice": "coin",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "coin": 0.7150081992149353,
+      "jar": 0.00011639023432508111,
+      "key": 0.003048626007512212,
+      "ring": 0.03642304614186287
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "coin .",
+    "prompt_truncated": false,
+    "reason": "counterfactual probe",
+    "stage": "final",
+    "sample_seed": 2036
+  },
+  {
+    "id": "nw_s3",
+    "group": "fresh",
+    "category": "spatial_relations",
+    "prompt": "the lake is south of the farm . the farm is",
+    "choices": [
+      "north",
+      "south",
+      "left",
+      "right"
+    ],
+    "expected": "north",
+    "predicted_choice": "north",
+    "score": 1,
+    "status": "scored",
+    "choice_probabilities": {
+      "north": 0.9778944253921509,
+      "south": 0.01901816390454769,
+      "left": 0.00014355442544911057,
+      "right": 2.6988013814843725e-06
+    },
+    "unknown_prompt_words": [],
+    "unknown_choices": [],
+    "generated_text": "north of the lake .",
+    "prompt_truncated": false,
+    "reason": "counterfactual probe",
+    "stage": "final",
+    "sample_seed": 2037
+  }
+]

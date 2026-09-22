@@ -1,0 +1,16 @@
+{
+  "model_sha256": "430bf61fb4da6065ffeb79e0718d599256e60c835479e1ad301676e93247816f",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the customer",
+      "seed": 2026,
+      "response": "ravi about the program was gray .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    }
+  ]
+}

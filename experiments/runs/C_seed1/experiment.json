@@ -1,0 +1,10 @@
+{
+  "name": "C_seed1",
+  "corpus": "corpus_split",
+  "seed": 1,
+  "layers": 2,
+  "lr": 0.001,
+  "steps": 3000,
+  "corpus_folder": "corpus_split",
+  "notebook_run_id": "20260922T033617_530667Z"
+}

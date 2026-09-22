@@ -1,0 +1,181 @@
+{
+  "suite_id": "counterfactual-probes-v1",
+  "version": 1,
+  "authorship": "Written for this project AFTER the Experiment B results. Not used for training, vocabulary, or corpus choices.",
+  "purpose": "Check whether correct answers depend on the story (flip the premise, the answer should flip) or on a fixed bias toward the eval answer word.",
+  "groups": {
+    "flip": "The 6 targeted eval cases with the premise reversed",
+    "fresh": "New stories with objects and people not used by the eval cases"
+  },
+  "scoring": "Same as evals/language_evals.json: highest probability among four single-token choices.",
+  "cases": [
+    {
+      "id": "cf_31",
+      "group": "flip",
+      "category": "negation",
+      "prompt": "the box is not blue . it is red . the box is",
+      "choices": [
+        "green",
+        "yellow",
+        "blue",
+        "red"
+      ],
+      "answer": "red",
+      "reason": "counterfactual probe"
+    },
+    {
+      "id": "cf_32",
+      "group": "flip",
+      "category": "negation",
+      "prompt": "ava did not buy milk . she bought tea . ava bought",
+      "choices": [
+        "rice",
+        "milk",
+        "tea",
+        "bread"
+      ],
+      "answer": "tea",
+      "reason": "counterfactual probe"
+    },
+    {
+      "id": "cf_33",
+      "group": "flip",
+      "category": "negation",
+      "prompt": "the door is not closed . it is open . the door is",
+      "choices": [
+        "closed",
+        "open",
+        "wide",
+        "missing"
+      ],
+      "answer": "open",
+      "reason": "counterfactual probe"
+    },
+    {
+      "id": "cf_40",
+      "group": "flip",
+      "category": "spatial_relations",
+      "prompt": "the bag is inside the box . the box contains the",
+      "choices": [
+        "lamp",
+        "bag",
+        "shelf",
+        "desk"
+      ],
+      "answer": "bag",
+      "reason": "counterfactual probe"
+    },
+    {
+      "id": "cf_41",
+      "group": "flip",
+      "category": "spatial_relations",
+      "prompt": "the lamp is below the desk . the desk is",
+      "choices": [
+        "below",
+        "above",
+        "inside",
+        "beside"
+      ],
+      "answer": "above",
+      "reason": "counterfactual probe"
+    },
+    {
+      "id": "cf_42",
+      "group": "flip",
+      "category": "spatial_relations",
+      "prompt": "the ball is right of the box . the box is to the",
+      "choices": [
+        "left",
+        "north",
+        "south",
+        "right"
+      ],
+      "answer": "left",
+      "reason": "counterfactual probe"
+    },
+    {
+      "id": "nw_n1",
+      "group": "fresh",
+      "category": "negation",
+      "prompt": "the kite is not green . it is pink . the kite is",
+      "choices": [
+        "green",
+        "pink",
+        "gray",
+        "white"
+      ],
+      "answer": "pink",
+      "reason": "counterfactual probe"
+    },
+    {
+      "id": "nw_n2",
+      "group": "fresh",
+      "category": "negation",
+      "prompt": "max did not eat rice . he ate cheese . max ate",
+      "choices": [
+        "rice",
+        "cheese",
+        "bread",
+        "cake"
+      ],
+      "answer": "cheese",
+      "reason": "counterfactual probe"
+    },
+    {
+      "id": "nw_n3",
+      "group": "fresh",
+      "category": "negation",
+      "prompt": "the gate is not locked . it is broken . the gate is",
+      "choices": [
+        "locked",
+        "broken",
+        "clean",
+        "old"
+      ],
+      "answer": "broken",
+      "reason": "counterfactual probe"
+    },
+    {
+      "id": "nw_s1",
+      "group": "fresh",
+      "category": "spatial_relations",
+      "prompt": "the clock is below the mirror . the mirror is",
+      "choices": [
+        "below",
+        "above",
+        "inside",
+        "beside"
+      ],
+      "answer": "above",
+      "reason": "counterfactual probe"
+    },
+    {
+      "id": "nw_s2",
+      "group": "fresh",
+      "category": "spatial_relations",
+      "prompt": "the coin is inside the jar . the jar contains the",
+      "choices": [
+        "coin",
+        "jar",
+        "key",
+        "ring"
+      ],
+      "answer": "coin",
+      "reason": "counterfactual probe"
+    },
+    {
+      "id": "nw_s3",
+      "group": "fresh",
+      "category": "spatial_relations",
+      "prompt": "the lake is south of the farm . the farm is",
+      "choices": [
+        "north",
+        "south",
+        "left",
+        "right"
+      ],
+      "answer": "north",
+      "reason": "counterfactual probe"
+    }
+  ]
+}

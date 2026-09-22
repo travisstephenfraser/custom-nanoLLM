@@ -1,0 +1,16 @@
+{
+  "model_sha256": "3b0db2584bd4267aa09996a8b3b663df260140ad747091be585ef8aa23b7f586",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the customer",
+      "seed": 2026,
+      "response": "ravi did the towel the bicycle . rosa is platform . mentioned in in focused on the station is to the carry .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    }
+  ]
+}

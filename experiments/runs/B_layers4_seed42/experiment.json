@@ -1,0 +1,10 @@
+{
+  "name": "B_layers4_seed42",
+  "corpus": "corpus",
+  "seed": 42,
+  "layers": 4,
+  "lr": 0.001,
+  "steps": 3000,
+  "corpus_folder": "corpus",
+  "notebook_run_id": "20260922T033646_766441Z"
+}

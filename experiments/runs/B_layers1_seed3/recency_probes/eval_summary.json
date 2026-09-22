@@ -1,0 +1,42 @@
+{
+  "suite_id": "recency-trap-probes-v1",
+  "suite_sha256": "1f175df39d13ca8de7cfcab281d09fc0bf31676cd8511a73726066d3d6a94e23",
+  "model_sha256": "31748c3c343234c15d32d2e9047355d000811f8648440754108e767e97c7873d",
+  "stage": "final",
+  "settings": {
+    "seed": 2026,
+    "temperature": 0.8,
+    "max_tokens": 24
+  },
+  "metric": "highest-probability answer among four single-word choices; ties get zero",
+  "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
+  "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
+  "overall": {
+    "correct": 4,
+    "total": 6,
+    "scorable": 6,
+    "success_rate_all_cases": 0.6666666666666666,
+    "accuracy_scorable_cases": 0.6666666666666666,
+    "coverage": 1.0
+  },
+  "by_group": {
+    "recency_trap": {
+      "correct": 4,
+      "total": 6,
+      "scorable": 6,
+      "success_rate_all_cases": 0.6666666666666666,
+      "accuracy_scorable_cases": 0.6666666666666666,
+      "coverage": 1.0
+    }
+  },
+  "by_category": {
+    "negation": {
+      "correct": 4,
+      "total": 6,
+      "scorable": 6,
+      "success_rate_all_cases": 0.6666666666666666,
+      "accuracy_scorable_cases": 0.6666666666666666,
+      "coverage": 1.0
+    }
+  }
+}

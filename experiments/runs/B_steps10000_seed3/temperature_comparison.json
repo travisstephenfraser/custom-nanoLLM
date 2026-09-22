@@ -1,0 +1,20 @@
+{
+  "0.3": [
+    "the local dentist was mentioned in the treatment report yesterday .",
+    "the report about the bus explains the traffic in detail .",
+    "the different therapist was mentioned in the care report yesterday .",
+    "we learned about the local taxi during a discussion of route ."
+  ],
+  "0.8": [
+    "ravi did not cook noodles . he cooked beans . ravi cooked beans .",
+    "the gate is not closed and it is not old . it is missing . the gate is missing .",
+    "we learned about the local buyer during a discussion of support .",
+    "the local physician was mentioned in the patient report yesterday ."
+  ],
+  "1.2": [
+    "ravi did not cook noodles . he cooked beans . ravi cooked beans .",
+    "the gate is not closed . it is wide . the gate not wide .",
+    "our school has a question about the local professor and course .",
+    "lily wanted to take the coat , but she did not . she took the pen . lily took the pen ."
+  ]
+}

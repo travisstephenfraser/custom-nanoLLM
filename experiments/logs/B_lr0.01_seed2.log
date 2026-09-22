@@ -1,0 +1,96 @@
+PyTorch: 2.14.0 | device: cpu
+Source: Synthetic classroom sentences plus corpus folder files
+Reserved eval passages excluded before splitting: 160
+Imported files: 2 | new unique passages: 3200
+negation.txt → 1600 passages | preview: 'it was not tea that hugo brought .hugo brought the lamp .\nravi wanted to drink coffee , but he did n'
+spatial.txt → 1600 passages | preview: 'the door is below the ball .where is the ball ?the ball is above the door .\nthe bottle is left of th'
+Unique documents: 7,792 | train: 7,012 | validation: 780
+Five training documents:
+a review of fruit helped us understand the important pear .
+the team discussed the buyer and the order at the store .
+today the market focused on design and the new item .
+a review of quality helped us understand the local product .
+the mirror is right of the hat . so the hat is to the left .
+Vocabulary: 319 | held-out unknown-token rate: 0.00%
+Training unknown-token rate: 0.00% | omitted types: 0
+Text: a review of fruit helped us understand the important pear . 
+Tokens: ['a', 'review', 'of', 'fruit', 'helped', 'us', 'understand', 'the', 'important', 'pear', '.'] 
+IDs: [1, 6, 231, 189, 117, 129, 300, 298, 279, 133, 207, 4, 2]
+Input → target: [('<BOS>', 'a'), ('a', 'review'), ('review', 'of'), ('of', 'fruit'), ('fruit', 'helped'), ('helped', 'us'), ('us', 'understand'), ('understand', 'the'), ('the', 'important'), ('important', 'pear'), ('pear', '.'), ('.', '<EOS>')]
+number of parameters: 0.12M
+Embedding table: (319, 64) | parameters: 123584
+Word: customer | ID: 83 
+Initial vector: [-0.016722911968827248, -0.007025957573205233, -0.0034131547436118126, -0.0043146382085978985, 0.014503927901387215, 0.011245276778936386, -0.046950001269578934, 0.004418421071022749, 0.0006907092756591737, -0.000732725253328681, -0.01982858031988144, -0.012113298289477825, -0.03263342007994652, 0.013085339218378067, -0.00677074259147048, -0.026091808453202248, 0.0168655626475811, 0.012435638345777988, -0.010160774923861027, 0.003272402100265026, 0.01125703752040863, -0.034484948962926865, -0.003951588645577431, -0.01508800033479929, 0.0073731085285544395, -0.007423087023198605, 0.006068967282772064, -0.029667101800441742, 0.0022075732704252005, -0.007309848442673683, -0.020362870767712593, 0.019312378019094467, 0.023062357679009438, -0.0021275593899190426, -0.02493554726243019, -0.002221213886514306, -0.019091440364718437, -0.010511012747883797, -0.0017466311110183597, -0.03157467395067215, -0.03918805345892906, -0.006174739450216293, 0.003672767896205187, -0.0020459142979234457, -0.012629900127649307, 0.02900218404829502, -0.02285030111670494, 0.018146343529224396, 0.002293429570272565, 0.0008745566010475159, -0.03621457517147064, -0.03751711919903755, -0.018048230558633804, 0.0036052498035132885, 0.0009848163463175297, 0.00776202417910099, 0.007213469594717026, 0.007140306290239096, 0.022148704156279564, -0.002148378174751997, 0.027755217626690865, -0.0268121138215065, -0.0015779898967593908, 0.029443703591823578]
+For a*a+a at a=2, the gradient is 5.0 (2*a+1).
+{'step': 0, 'training_loss': 5.778100490570068, 'validation_loss': 5.777235507965088}
+
+Samples:
+ravi he dentist towel service suitcase yesterday quality at platform . mentioned inside south focused chose desk banana subscriber review is carry eat lily scarf instead locked cage farm jar park ticket
+with software helped service surgeon interest local today jade local instructor reviewed bridge was garage bag bank different the delivery reviewed kite item open kite bicycle now tutor lesson field with left
+we north window educator rosa new bed and orange closed banana vase rug bring kai coin wide flag discussed towel took truck but river iris application vase doctor suitcase understand beach it
+shirt black shop black banana ? that contains but sat sink wrong box yesterday ticket bucket yes us update banana he hospital educator shirt bucket item item understand gate office customer hospital
+Language evals (untrained): 8/48; 30/48 cases have usable vocabulary/context.
+  extend_corpus: 3/24 correct; 6 scorable
+  starter_patterns: 3/16 correct; 16 scorable
+  starter_transfer: 2/8 correct; 8 scorable
+Step 500: batch loss 0.9070
+Step 1,000: batch loss 0.8488
+{'step': 1500, 'training_loss': 0.7884418368339539, 'validation_loss': 0.8156307935714722}
+
+Samples:
+ravi did not cook rice today . he cooked rice . what did ravi cook ? ravi cooked rice .
+we learned about the new therapist during a discussion of patient .
+the ball is below the sink . the sink is above the ball .
+the local physician was mentioned in the patient report yesterday .
+Step 2,000: batch loss 0.7314
+Step 2,500: batch loss 0.7099
+{'step': 3000, 'training_loss': 0.7457368969917297, 'validation_loss': 0.8228541612625122}
+
+Samples:
+ravi did not cook eggs today . he cooked eggs . what did ravi buy ? ravi cooked eggs .
+we learned about the different therapist during a discussion of care .
+the ball is below the book . the book is above the ball .
+the local physician was mentioned in the patient report yesterday .
+Completed: 3000 | seconds: 15.29 
+First update: {'token': 'customer', 'coordinate': 0, 'before': -0.016722911968827248, 'gradient': 0.00015027644985821098, 'learning_rate': 0.0001, 'after': -0.016822878271341324}
+Word: customer 
+Trained vector: [0.30750852823257446, 0.008551367558538914, -0.20843228697776794, -0.16393640637397766, 0.26298198103904724, -0.2848624587059021, -0.04053846374154091, -0.1579865664243698, 0.30187708139419556, -0.3389761745929718, -0.3191177248954773, -0.2980034649372101, -0.07735683768987656, 0.04355962574481964, 0.19124242663383484, 0.16382205486297607, 0.06621445715427399, 0.21742942929267883, 0.06667976826429367, -0.027636073529720306, -0.1580248773097992, 0.28027138113975525, -0.16472212970256805, 0.0037998168263584375, -0.37863436341285706, 0.19252343475818634, -0.14331074059009552, -0.017023131251335144, 0.14444002509117126, 0.3062545359134674, -0.2249334752559662, 0.14406825602054596, -0.21095475554466248, -0.02788037247955799, 0.09695611149072647, -0.2585974335670471, 0.5247747302055359, 0.37096142768859863, -0.48699381947517395, -0.16332922875881195, -0.2227577567100525, 0.06365428119897842, 0.2722841799259186, 0.02923504076898098, -0.2218737155199051, -0.1715494990348816, 0.14968565106391907, 0.44496506452560425, -0.2247549295425415, -0.16392463445663452, 0.11419452726840973, -0.344796359539032, 0.13049578666687012, 0.12229545414447784, 0.1984647661447525, -0.09220969676971436, 0.15690046548843384, 0.10473926365375519, 0.2899540662765503, 0.020459778606891632, 0.26201173663139343, 0.23948107659816742, -0.06769078969955444, 0.3125515282154083]
+Before predictions: [('customer', 0.0054), ('grab', 0.0048), ('software', 0.0048), ('design', 0.0048), ('payment', 0.0046)]
+After predictions: [('selected', 0.2326), ('compared', 0.1966), ('reviewed', 0.1951), ('recommended', 0.148), ('ordered', 0.11)]
+First-head attention: [[1.0, 0.0, 0.0], [0.7604498863220215, 0.23955005407333374, 0.0], [0.5357015132904053, 0.4107922911643982, 0.05350622534751892]]
+Temperature comparison: {
+  "0.3": [
+    "the local dentist was mentioned in the treatment report yesterday .",
+    "the report about the brand explains the price in detail .",
+    "the different therapist was mentioned in the care report yesterday .",
+    "we learned about the local taxi during a discussion of travel ."
+  ],
+  "0.8": [
+    "ravi did not cook eggs today . he cooked eggs . what did ravi buy ? ravi cooked eggs .",
+    "we learned about the different therapist during a discussion of care .",
+    "the ball is below the book . the book is above the ball .",
+    "the local physician was mentioned in the patient report yesterday ."
+  ],
+  "1.2": [
+    "ravi did not cook eggs today . he cooked eggs . what did ravi buy ? ravi cooked eggs .",
+    "we learned about the different therapist during a discussion of care .",
+    "the ball is below the vase . the vase is above the ball .",
+    "the gate is broken , not open . so the gate is broken ."
+  ]
+}
+Language evals (final): 30/48; 30/48 cases have usable vocabulary/context.
+  extend_corpus: 6/24 correct; 6 scorable
+  starter_patterns: 16/16 correct; 16 scorable
+  starter_transfer: 8/8 correct; 8 scorable
+<IPython.core.display.SVG object>
+/Users/travis/Developer/pepeclass/assign3-customllm/custom-llm/llm_runs/20260922T033801_234276Z.zip
+Saved: llm_runs/20260922T033801_234276Z 
+Results ZIP: /Users/travis/Developer/pepeclass/assign3-customllm/custom-llm/llm_runs/20260922T033801_234276Z.zip
+You: the customer 
+Model: selected the package after checking the price .
+Saved chat and refreshed ZIP: /Users/travis/Developer/pepeclass/assign3-customllm/custom-llm/llm_runs/20260922T033801_234276Z.zip
+/Users/travis/Developer/pepeclass/assign3-customllm/custom-llm/llm_runs/20260922T033801_234276Z.zip
+Language evals (final): 12/12; 12/12 cases have usable vocabulary/context.
+  flip: 6/6 correct; 6 scorable
+  fresh: 6/6 correct; 6 scorable
+Saved /Users/travis/Developer/pepeclass/assign3-customllm/custom-llm/experiments/runs/B_lr0.01_seed2

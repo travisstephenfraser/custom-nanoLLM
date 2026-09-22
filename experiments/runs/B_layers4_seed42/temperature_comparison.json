@@ -1,0 +1,20 @@
+{
+  "0.3": [
+    "the local dentist was mentioned in the treatment report yesterday .",
+    "the report about the bus explains the traffic in detail .",
+    "the different therapist was mentioned in the care report yesterday .",
+    "we learned about the local buyer during a discussion of support ."
+  ],
+  "0.8": [
+    "ravi thought the cabinet was missing . it was not missing . it was dirty .",
+    "we learned about the local bond during a discussion of return .",
+    "today the school focused on lesson and the local professor .",
+    "the pen is above the bag . the bag is below the pen ."
+  ],
+  "1.2": [
+    "ravi thought the towel was gray . it was not gray . it was gray .",
+    "we learned about the local bond during a discussion of return .",
+    "today the school focused on service and the local professor .",
+    "a review of data helped us understand the local physician ."
+  ]
+}

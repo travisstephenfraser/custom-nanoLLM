@@ -1,0 +1,20 @@
+{
+  "0.3": [
+    "the local dentist was mentioned in the treatment report yesterday .",
+    "the report about the brand explains the price in detail .",
+    "the different therapist was mentioned in the care report yesterday .",
+    "we learned about the local buyer during a discussion of support ."
+  ],
+  "0.8": [
+    "ravi did not cook rice today . he cooked eggs . what did ravi cook ? ravi cooked eggs .",
+    "we learned about the different therapist during a discussion of care .",
+    "the ball is below the vase . the vase is above the ball .",
+    "the client returned the package after checking the price ."
+  ],
+  "1.2": [
+    "ravi did not cook rice today . he cooked eggs . mentioned in ? jack cook was .",
+    "ruby is left of hugo . the table is to the right of sam .",
+    "a review of security helped us understand the important bridge .",
+    "bag . the bag is is it is not red . the bag is black ."
+  ]
+}

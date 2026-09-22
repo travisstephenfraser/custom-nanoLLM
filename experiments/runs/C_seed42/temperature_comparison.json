@@ -1,0 +1,20 @@
+{
+  "0.3": [
+    "the local dentist was mentioned in the treatment report yesterday .",
+    "the report about the brand explains the price in detail .",
+    "the different therapist was mentioned in the care report yesterday .",
+    "we learned about the local buyer during a discussion of support ."
+  ],
+  "0.8": [
+    "ravi did not cook rice today .",
+    "the new buyer was mentioned in the order report yesterday .",
+    "the local bond was mentioned in the return report yesterday .",
+    "the new educator was mentioned in the student report yesterday ."
+  ],
+  "1.2": [
+    "ravi brought tea , not noodles .",
+    "we learned about the different apple during a discussion of fruit .",
+    "she ordered banana .",
+    "a review of harvest helped us understand the different banana ."
+  ]
+}

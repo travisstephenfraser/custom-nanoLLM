@@ -1,0 +1,94 @@
+PyTorch: 2.14.0 | device: cpu
+Source: Synthetic classroom sentences plus corpus folder files
+Reserved eval passages excluded before splitting: 160
+Imported files: 0 | new unique passages: 0
+Unique documents: 4,592 | train: 4,132 | validation: 460
+Five training documents:
+the different bus was mentioned in the journey report yesterday .
+our office has a question about the important software and security .
+the important investment was mentioned in the payment report yesterday .
+the report about the train explains the traffic in detail .
+the local client was mentioned in the order report yesterday .
+Vocabulary: 136 | held-out unknown-token rate: 0.00%
+Training unknown-token rate: 0.00% | omitted types: 0
+Text: the different bus was mentioned in the journey report yesterday . 
+Tokens: ['the', 'different', 'bus', 'was', 'mentioned', 'in', 'the', 'journey', 'report', 'yesterday', '.'] 
+IDs: [1, 118, 35, 17, 131, 66, 50, 118, 55, 94, 135, 3, 2]
+Input → target: [('<BOS>', 'the'), ('the', 'different'), ('different', 'bus'), ('bus', 'was'), ('was', 'mentioned'), ('mentioned', 'in'), ('in', 'the'), ('the', 'journey'), ('journey', 'report'), ('report', 'yesterday'), ('yesterday', '.'), ('.', '<EOS>')]
+number of parameters: 0.11M
+Embedding table: (136, 64) | parameters: 111872
+Word: customer | ID: 28 
+Initial vector: [0.021708756685256958, 0.009476170875132084, -4.746653576148674e-05, 0.00020115160441491753, 0.03198449686169624, -0.01007776241749525, 0.0165502168238163, -0.010062363930046558, -0.013378184288740158, 0.03732113167643547, 0.004441980738192797, -0.01922650821506977, -0.0015053343959152699, 0.02710263431072235, -0.03502828627824783, 0.003344189375638962, 0.019093897193670273, -0.00468413345515728, 0.02324288710951805, 0.032425954937934875, -0.013494092039763927, 0.0005463455454446375, -0.0025896206498146057, 0.031771495938301086, 0.011394625529646873, 0.02166851982474327, -0.03200255706906319, -0.008322881534695625, -0.016434988006949425, 0.02405836246907711, 0.008507132530212402, 0.006613635923713446, 0.017238618806004524, -0.0006985723157413304, 0.0063355788588523865, -7.73483989178203e-05, -0.0051148212514817715, 0.049707699567079544, -0.008495109155774117, -0.01992318220436573, -0.007836558856070042, 0.00764839444309473, 0.00019322290609125048, 0.008164068683981895, 0.00521665858104825, 0.061328452080488205, 0.004421353340148926, 0.02567950449883938, -0.004829174838960171, 0.016687776893377304, 0.02667590230703354, 0.020426224917173386, 0.04745331034064293, -0.03224809095263481, 0.018635373562574387, -0.00028888590168207884, -0.028476251289248466, 0.011090615764260292, -0.010611929930746555, -0.006163242273032665, -0.0044044144451618195, 0.0042340876534581184, -0.032807186245918274, 0.0072508505545556545]
+For a*a+a at a=2, the gradient is 5.0 (2*a+1).
+{'step': 0, 'training_loss': 4.954531669616699, 'validation_loss': 4.944138526916504}
+
+Samples:
+pear professor item doctor course harvest team physician journey checking buyer delivery our report the lecturer item offering and system <UNK> taste recommended mentioned bus question surgeon at mortgage car in instructor
+kitchen purchase journey product our new journey service patient nurse local
+route and purchase update taste taste loan taste in and treatment learned another item bicycle product bicycle focused data and dentist recommended mango apple taxi bicycle delivery teacher learning update student return
+important hospital juice patient return recommended deposit tutor returned understand kitchen student design ordered hospital treatment important package traffic with yesterday investment quality of mentioned buyer ordered mortgage apple educator the station
+Language evals (untrained): 6/48; 24/48 cases have usable vocabulary/context.
+  extend_corpus: 0/24 correct; 0 scorable
+  starter_patterns: 5/16 correct; 16 scorable
+  starter_transfer: 1/8 correct; 8 scorable
+Step 500: batch loss 0.8621
+Step 1,000: batch loss 0.7021
+{'step': 1500, 'training_loss': 0.7139924168586731, 'validation_loss': 0.6922942399978638}
+
+Samples:
+our school has a question about the new educator and lesson .
+a review of risk helped us understand the different deposit .
+the report about the car explains the journey in detail .
+the consumer compared the merchandise after checking the price .
+Step 2,000: batch loss 0.7033
+Step 2,500: batch loss 0.7026
+{'step': 3000, 'training_loss': 0.7031328082084656, 'validation_loss': 0.6987239122390747}
+
+Samples:
+our school has a question about the new educator and lesson .
+a review of risk helped us understand the different investment .
+the report about the car explains the journey in detail .
+the consumer compared the offering after checking the price .
+Completed: 3000 | seconds: 9.89 
+First update: {'token': 'customer', 'coordinate': 0, 'before': 0.021708756685256958, 'gradient': 0.005363740026950836, 'learning_rate': 1e-05, 'after': 0.021698754280805588}
+Word: customer 
+Trained vector: [-0.0791538804769516, 0.03416154161095619, -0.028798919171094894, 0.035223349928855896, -0.02090786211192608, 0.003477939637377858, -0.05161496624350548, 0.11747836321592331, -0.06124492734670639, 0.059265077114105225, -0.005505414213985205, 0.10931795090436935, -0.09162965416908264, 0.029962854459881783, -0.13786181807518005, 0.09021158516407013, 0.10003556311130524, 0.051737017929553986, -0.03897468000650406, 0.11332529783248901, 0.017593570053577423, -0.11803512275218964, -0.023845620453357697, 0.026587096974253654, -0.07613354176282883, 0.08210894465446472, -0.10442253947257996, -0.13643904030323029, 0.005994169507175684, -0.009744175709784031, 0.018274812027812004, 0.08780156075954437, 0.056724805384874344, -0.05676428973674774, 0.06820528209209442, 0.13199704885482788, 0.0992688462138176, -0.06377436965703964, -0.046751052141189575, 0.04937100037932396, 0.09117621183395386, 0.036509592086076736, 0.08194898813962936, -0.05123860761523247, 0.05871787667274475, 0.14198097586631775, 0.086525097489357, 0.09189005941152573, -0.11828717589378357, -0.04451844096183777, 0.0052627017721533775, 0.05954490602016449, 0.09641554951667786, -0.01296936720609665, 0.052970148622989655, -0.12488365918397903, -0.08964133262634277, -0.027975384145975113, -0.09142734110355377, -0.09765610843896866, 0.08364609628915787, 0.12013784050941467, -0.1265338659286499, -0.12044862657785416]
+Before predictions: [('customer', 0.0153), ('offering', 0.0117), ('item', 0.01), ('our', 0.01), ('us', 0.01)]
+After predictions: [('recommended', 0.1997), ('ordered', 0.1916), ('returned', 0.1865), ('selected', 0.1401), ('reviewed', 0.1389)]
+First-head attention: [[1.0, 0.0, 0.0], [0.5857353210449219, 0.4142647385597229, 0.0], [0.566673994064331, 0.4156953692436218, 0.017630651593208313]]
+Temperature comparison: {
+  "0.3": [
+    "our school has a question about the new tutor and lesson .",
+    "a review of risk helped us understand the different investment .",
+    "the report about the car explains the traffic in detail .",
+    "the local consumer was mentioned in the purchase report yesterday ."
+  ],
+  "0.8": [
+    "our school has a question about the new educator and lesson .",
+    "a review of risk helped us understand the different investment .",
+    "the report about the car explains the journey in detail .",
+    "the consumer compared the offering after checking the price ."
+  ],
+  "1.2": [
+    "our school has a question about the new educator and lesson .",
+    "a review of risk helped us understand the different investment .",
+    "the report about the car explains the journey in detail .",
+    "the consumer compared the merchandise after checking the price ."
+  ]
+}
+Language evals (final): 23/48; 24/48 cases have usable vocabulary/context.
+  extend_corpus: 0/24 correct; 0 scorable
+  starter_patterns: 16/16 correct; 16 scorable
+  starter_transfer: 7/8 correct; 8 scorable
+<IPython.core.display.SVG object>
+/Users/travis/Developer/pepeclass/assign3-customllm/custom-llm/llm_runs/20260922T033617_000582Z.zip
+Saved: llm_runs/20260922T033617_000582Z 
+Results ZIP: /Users/travis/Developer/pepeclass/assign3-customllm/custom-llm/llm_runs/20260922T033617_000582Z.zip
+You: the customer 
+Model: selected the item after checking the price .
+Saved chat and refreshed ZIP: /Users/travis/Developer/pepeclass/assign3-customllm/custom-llm/llm_runs/20260922T033617_000582Z.zip
+/Users/travis/Developer/pepeclass/assign3-customllm/custom-llm/llm_runs/20260922T033617_000582Z.zip
+Language evals (final): 0/12; 0/12 cases have usable vocabulary/context.
+  flip: 0/6 correct; 0 scorable
+  fresh: 0/6 correct; 0 scorable
+Saved /Users/travis/Developer/pepeclass/assign3-customllm/custom-llm/experiments/runs/A_seed2

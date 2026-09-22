@@ -1,0 +1,16 @@
+{
+  "model_sha256": "4bd01f920364b76c62c64f543775fdd8ecc0ce8dc0e3118720c4b6d3218c0d9b",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the customer",
+      "seed": 2026,
+      "response": "customer was mentioned in the return report yesterday .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    }
+  ]
+}

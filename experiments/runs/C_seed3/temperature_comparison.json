@@ -1,0 +1,20 @@
+{
+  "0.3": [
+    "the coat is not blue .",
+    "the local platform was mentioned in the security report yesterday .",
+    "the new nurse was mentioned in the care report yesterday .",
+    "the local software was mentioned in the security report yesterday ."
+  ],
+  "0.8": [
+    "ravi is to the left of lucy .",
+    "we learned about the local bus during a discussion of traffic .",
+    "the bowl is not brown .",
+    "the report about the software explains the code in detail ."
+  ],
+  "1.2": [
+    "ravi brought tea , not noodles .",
+    "we learned about the different apple during a discussion of fruit .",
+    "she ordered banana .",
+    "a review of harvest helped us understand the different banana ."
+  ]
+}

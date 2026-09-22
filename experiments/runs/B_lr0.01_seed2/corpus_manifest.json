@@ -1,0 +1,33 @@
+{
+  "files": [
+    {
+      "file": "negation.txt",
+      "bytes": 111287,
+      "sha256": "b84d454b56962fa8c2a93ec7d8abebd621210b4b43579807a27dc34c091bebe4",
+      "warnings": [],
+      "characters": 111287,
+      "passages": 1600,
+      "unique_passages": 1600,
+      "preview": "it was not tea that hugo brought .hugo brought the lamp .\nravi wanted to drink coffee , but he did not .he drank cider .ravi drank cider .\nben said the fridge is wide .that is wrong .the fridge is not wide .it is clean .\njade thought the ball was yellow .it was not yellow .it was purple .\nis the clo"
+    },
+    {
+      "file": "spatial.txt",
+      "bytes": 110197,
+      "sha256": "c6bd0d6baaca9ffe50bfce912059d1a23d64a78abaca8a0d6ee8c20953459dcf",
+      "warnings": [],
+      "characters": 110197,
+      "passages": 1600,
+      "unique_passages": 1600,
+      "preview": "the door is below the ball .where is the ball ?the ball is above the door .\nthe bottle is left of the sofa .the sofa is to the right of the bottle .\ntheo sat beside the picture .the picture is beside theo .\nthe farm is south of the store .so the store is to the north .\nruby put the sock inside the b"
+    }
+  ],
+  "ignored": [],
+  "external_passages": 3200,
+  "mode": "classroom",
+  "base_passages": 6200,
+  "unique_passages": 7792,
+  "new_unique_passages": 3200,
+  "duplicates_removed": 1608,
+  "max_passage_tokens": 47,
+  "split_unit": "deduplicated passage, not source file"
+}

@@ -1,0 +1,58 @@
+{
+  "suite_id": "counterfactual-probes-v1",
+  "suite_sha256": "6d2416764f75f0fdf96db9f69087c88932b14682690a6c97525112d44810ef8d",
+  "model_sha256": "af52c081d90d60025f8e117c7095bd7ba799d4cf2686241d9c509cbb8af8c490",
+  "stage": "final",
+  "settings": {
+    "seed": 2026,
+    "temperature": 0.8,
+    "max_tokens": 24
+  },
+  "metric": "highest-probability answer among four single-word choices; ties get zero",
+  "generation_note": "Generated text is saved for inspection and is not the multiple-choice score.",
+  "missing_note": "Unknown-word and overlong cases get zero in all-case success, not guessed UNK credit.",
+  "overall": {
+    "correct": 12,
+    "total": 12,
+    "scorable": 12,
+    "success_rate_all_cases": 1.0,
+    "accuracy_scorable_cases": 1.0,
+    "coverage": 1.0
+  },
+  "by_group": {
+    "flip": {
+      "correct": 6,
+      "total": 6,
+      "scorable": 6,
+      "success_rate_all_cases": 1.0,
+      "accuracy_scorable_cases": 1.0,
+      "coverage": 1.0
+    },
+    "fresh": {
+      "correct": 6,
+      "total": 6,
+      "scorable": 6,
+      "success_rate_all_cases": 1.0,
+      "accuracy_scorable_cases": 1.0,
+      "coverage": 1.0
+    }
+  },
+  "by_category": {
+    "negation": {
+      "correct": 6,
+      "total": 6,
+      "scorable": 6,
+      "success_rate_all_cases": 1.0,
+      "accuracy_scorable_cases": 1.0,
+      "coverage": 1.0
+    },
+    "spatial_relations": {
+      "correct": 6,
+      "total": 6,
+      "scorable": 6,
+      "success_rate_all_cases": 1.0,
+      "accuracy_scorable_cases": 1.0,
+      "coverage": 1.0
+    }
+  }
+}

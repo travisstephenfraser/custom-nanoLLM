@@ -1,0 +1,10 @@
+{
+  "name": "B_steps10000_seed2",
+  "corpus": "corpus",
+  "seed": 2,
+  "layers": 2,
+  "lr": 0.001,
+  "steps": 10000,
+  "corpus_folder": "corpus",
+  "notebook_run_id": "20260922T033819_563593Z"
+}

@@ -1,0 +1,16 @@
+{
+  "model_sha256": "543ecbee502be4d9da8f138f108c0c2ed010a6649dee209397eeef045994d3a7",
+  "completed_steps": 10000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the customer",
+      "seed": 2026,
+      "response": "ravi cabinet was mentioned , not cake .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    }
+  ]
+}

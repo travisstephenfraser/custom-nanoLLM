@@ -1,0 +1,16 @@
+{
+  "model_sha256": "1867fbf06a7f1926efa18eeb99360999029b782063d96e156af0c354507e3632",
+  "completed_steps": 10000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the customer",
+      "seed": 2026,
+      "response": "customer lamp , not white . farm is jack is jack .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    }
+  ]
+}

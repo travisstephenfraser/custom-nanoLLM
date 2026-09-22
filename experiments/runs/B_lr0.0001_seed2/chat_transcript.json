@@ -1,0 +1,16 @@
+{
+  "model_sha256": "b5439c4f4c4ba9a718f07b5045b8f6203c21a4e0642463911402c37c832031e6",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the customer",
+      "seed": 2026,
+      "response": "ravi he he cooked drove .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    }
+  ]
+}

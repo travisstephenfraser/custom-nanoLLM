@@ -1,0 +1,20 @@
+{
+  "0.3": [
+    "the local dentist was mentioned in the treatment report yesterday .",
+    "the report about the bus explains the traffic in detail .",
+    "the different therapist was mentioned in the care report yesterday .",
+    "we learned about the local buyer during a discussion of support ."
+  ],
+  "0.8": [
+    "ravi did not carry the basket . he carried the ball instead . so ravi carried the ball .",
+    "today the store focused on order and the important consumer .",
+    "a review of service helped us understand the local buyer .",
+    "our hospital has a question about the different physician and care ."
+  ],
+  "1.2": [
+    "ravi did not cook rice today . he cooked pear . what did ravi eat ? ravi cooked eggs .",
+    "we learned about the different therapist during a discussion of care .",
+    "the ball is below the sink . the sink is above the ball .",
+    "the client returned the package after checking the price ."
+  ]
+}

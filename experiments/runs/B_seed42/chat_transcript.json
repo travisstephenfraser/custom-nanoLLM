@@ -1,0 +1,16 @@
+{
+  "model_sha256": "dff0528a316774036538b0b380ed3df0d36c924742ab7e1373c16504b84dd657",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the customer",
+      "seed": 2026,
+      "response": "ravi choose the towel , but she did not .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "0.3": [
+    "the important dentist was mentioned in the treatment report yesterday .",
+    "the report about the brand explains the price in detail .",
+    "the different therapist was mentioned in the care report yesterday .",
+    "we learned about the local taxi during a discussion of travel ."
+  ],
+  "0.8": [
+    "ravi did not carry the basket . he carried the phone . ravi carried the phone .",
+    "today the hospital focused on treatment and the different therapist .",
+    "today the station focused on travel and the local bicycle .",
+    "the pen is above the bag . the bag is below the pen ."
+  ],
+  "1.2": [
+    "ravi did not carry the basket . he carried the phone . ravi carried the phone .",
+    "today the hospital focused on treatment and the different therapist .",
+    "today the station focused on travel and the local bicycle .",
+    "a review of data helped us understand the local program ."
+  ]
+}

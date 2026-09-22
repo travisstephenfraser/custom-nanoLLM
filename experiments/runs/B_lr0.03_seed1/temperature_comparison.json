@@ -1,0 +1,20 @@
+{
+  "0.3": [
+    "the important dentist was mentioned in the treatment report yesterday .",
+    "the report about the merchandise explains the price in detail .",
+    "the report about the professor explains the student in detail .",
+    "we learned about the local loan during a discussion of risk ."
+  ],
+  "0.8": [
+    "ravi did not carry the basket . he carried the ball instead . so ravi carried the ball .",
+    "today the store focused on order and the important consumer .",
+    "a review of service helped us understand the local buyer .",
+    "our office has a question about the different platform and code ."
+  ],
+  "1.2": [
+    "ravi did not cook rice today . he cooked beans . what did ravi cook ? ravi cooked beans .",
+    "we learned about the different therapist during a discussion of care .",
+    "the ball is below the vase . the vase is above the ball .",
+    "the gate is locked , not open . so the gate is locked ."
+  ]
+}

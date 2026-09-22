@@ -1,0 +1,16 @@
+{
+  "model_sha256": "4a68dd170c1d2042c9ec719a2943ae4d0362300ada37894a53b3d1326b8ee29e",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the customer",
+      "seed": 2026,
+      "response": "ravi above the phone .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    }
+  ]
+}

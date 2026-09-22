@@ -1,0 +1,33 @@
+A_seed1 --corpus none --seed 1
+B_seed1 --corpus corpus --seed 1
+C_seed1 --corpus corpus_split --seed 1
+A_seed2 --corpus none --seed 2
+B_seed2 --corpus corpus --seed 2
+C_seed2 --corpus corpus_split --seed 2
+A_seed3 --corpus none --seed 3
+B_seed3 --corpus corpus --seed 3
+C_seed3 --corpus corpus_split --seed 3
+B_layers1_seed42 --corpus corpus --seed 42 --layers 1
+B_layers4_seed42 --corpus corpus --seed 42 --layers 4
+B_lr0.0001_seed42 --corpus corpus --seed 42 --lr 0.0001
+B_lr0.01_seed42 --corpus corpus --seed 42 --lr 0.01
+B_lr0.03_seed42 --corpus corpus --seed 42 --lr 0.03
+B_steps10000_seed42 --corpus corpus --seed 42 --steps 10000
+B_layers1_seed1 --corpus corpus --seed 1 --layers 1
+B_layers4_seed1 --corpus corpus --seed 1 --layers 4
+B_lr0.0001_seed1 --corpus corpus --seed 1 --lr 0.0001
+B_lr0.01_seed1 --corpus corpus --seed 1 --lr 0.01
+B_lr0.03_seed1 --corpus corpus --seed 1 --lr 0.03
+B_steps10000_seed1 --corpus corpus --seed 1 --steps 10000
+B_layers1_seed2 --corpus corpus --seed 2 --layers 1
+B_layers4_seed2 --corpus corpus --seed 2 --layers 4
+B_lr0.0001_seed2 --corpus corpus --seed 2 --lr 0.0001
+B_lr0.01_seed2 --corpus corpus --seed 2 --lr 0.01
+B_lr0.03_seed2 --corpus corpus --seed 2 --lr 0.03
+B_steps10000_seed2 --corpus corpus --seed 2 --steps 10000
+B_layers1_seed3 --corpus corpus --seed 3 --layers 1
+B_layers4_seed3 --corpus corpus --seed 3 --layers 4
+B_lr0.0001_seed3 --corpus corpus --seed 3 --lr 0.0001
+B_lr0.01_seed3 --corpus corpus --seed 3 --lr 0.01
+B_lr0.03_seed3 --corpus corpus --seed 3 --lr 0.03
+B_steps10000_seed3 --corpus corpus --seed 3 --steps 10000

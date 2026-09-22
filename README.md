@@ -25,6 +25,11 @@ that spans sentences*, not just from knowing the words. The other 18 extension c
 because their words never appear in any training text. These 48 public cases guided my corpus choices, so they are a
 *development benchmark*, not an unseen test.
 
+**Follow-up (36 more runs; [details](#follow-up-experiments-optional-seeds-training-length-learning-rate-depth)).**
+Across 4 seeds, spatial relations held at 3/3 every time, but negation at the default settings was fragile (3, 3, 0, 2).
+Training for 10,000 steps, or using learning rate 0.01, made negation 3/3 at every seed. A 1-layer model passed the
+negation evals with a recency shortcut and failed the probes designed to catch that shortcut.
+
 Executed notebooks: [A: starter](custom_llm_starter.ipynb) · [B: expanded](custom_llm_expanded.ipynb) ·
 [C: ablation](custom_llm_ablation.ipynb). The unexecuted course template is [custom_llm.ipynb](custom_llm.ipynb).
 
@@ -41,6 +46,9 @@ Executed notebooks: [A: starter](custom_llm_starter.ipynb) · [B: expanded](cust
 | `evals/language_evals.json`, `run_evals.py` | The unchanged 48-case suite and the course runner |
 | `probes/counterfactual_probes.json` | 12 extra probe cases I wrote after seeing B's results (see the evals section) |
 | `results/rerun/` | All four A/B result sets regenerated from the saved weights with `run_evals.py` |
+| `experiments/` | Follow-up sweep: runner, analysis script, the plan, `summary.csv` and `summary.md`, and 36 run folders (each with its model, losses, samples, evals and probes) |
+| `probes/recency_trap_probes.json` | 6 probes where the correct word is not the most recent one (see Follow-up experiments) |
+| `results/embeddings/neighbors.json` | Cosine neighbors before and after training, and the 3D-projection comparison |
 | `results/leakage/` | Leakage audit reports for both corpora |
 | `results/chat_transcript.json`, `results/chat_screenshot.png` | Chat evidence |
 | `chat.py` | Terminal chat interface (course-supplied) |
@@ -288,6 +296,45 @@ because the corpus uses each verb about equally often.
 0.42 on `the`, and 0.09 on itself. Each row only has weights for earlier positions (and itself): the causal mask forces
 the weights for future tokens to exactly zero.
 
+## Neighbors: what the embeddings learned
+
+My Experiment A prediction said `customer` would move closer to words it appears *with*, such as `service` and `store`.
+**That prediction was wrong.** Cosine similarity over all 64 numbers
+([`experiments/embedding_neighbors.py`](experiments/embedding_neighbors.py), [results](results/embeddings/neighbors.json)):
+
+| Word (run) | Nearest before training | Nearest after training (64D cosine) |
+|---|---|---|
+| customer (A) | bus 0.21, educator 0.20, helped 0.20 (noise) | **shopper 0.98, client 0.98, buyer 0.98**, subscriber 0.97, consumer 0.97 |
+| service (A) | instructor 0.25, explains 0.24 (noise) | **purchase 0.99, order 0.99, support 0.99**, store 0.40 |
+| above (B) | client 0.38, learned 0.38 (noise) | **below 0.76**, beside 0.53, under 0.49, inside 0.47 |
+| left (B) | reviewed 0.36, right 0.35 | **right 0.78**, south 0.55, north 0.43 |
+| blue (B) | owen 0.32, ruby 0.28 (noise) | **gray 0.84, brown 0.84, yellow 0.83**, white 0.82, green 0.81 |
+| milk (B) | brought 0.42, anna 0.27 (noise) | **tea 0.89**, coffee 0.84, cider 0.80, cocoa 0.78, lemonade 0.75 |
+
+Embeddings grouped words that are **interchangeable in the same slot** of a sentence, not words that occur together.
+The six customer nouns fill the same `{noun}` position in every template, so they became near-duplicates. `service`
+sits in a different slot (`{context}`), so it clustered with the other context words instead. For the same reason,
+opposites end up close together: `above` and `below` fill the same position ("the cup is ___ the plate"). Their
+meaning is opposite, but their usage is almost identical.
+
+This also helps explain the thinnest eval margin. `milk` and `tea`, the two candidates in lang_32, are each other's
+nearest neighbors (0.89), so the embedding alone barely distinguishes them. Picking the right one depends on attention
+copying the word that followed "she bought".
+
+**Why the 3D map is imperfect.** The embedding viewer compresses 64 numbers into 3 with PCA. A 3D PCA of the final
+table keeps only **41% of the variance in A and 21% in B**, and 3D neighbors often disagree with the real ones:
+
+| Word (run) | 64D neighbors | 3D PCA neighbors | Overlap |
+|---|---|---|---:|
+| customer (B) | client, consumer, buyer, subscriber, shopper | shopper, buyer, consumer, client, subscriber | 5/5 |
+| blue (B) | gray, brown, yellow, white, green | green, white, brown, eggs, max | 3/5 |
+| left (B) | right, south, north, below, to | a, where, the, what, find | 0/5 |
+| milk (B) | tea, coffee, cider, cocoa, lemonade | mango, banana, pear, peach, lake | 0/5 |
+
+Strong, dominant clusters (the customer synonyms) survive the projection; finer distinctions (drinks vs. fruit,
+directions vs. question words) do not. Distances on the map are a rough picture; cosine over all 64 numbers is the
+real measurement.
+
 ## Temperature comparison
 
 Same trained model, starting token, and seed (2026); only temperature changes, and no weights change
@@ -369,7 +416,8 @@ In Experiment A all six were `out_of_vocabulary`. **What worked:**
   from the multi-sentence stories. It also rests on weak evidence: in A, three of the four "correct" transfer cases had
   probability ≈ 0.000 on *all four* choices, so they were ranked among near-zeros. In addition, A's different vocabulary
   size gives it different random starting weights than B and C. The data change and the initialization are
-  confounded here, and one run per corpus cannot separate them.
+  confounded here, and one run per corpus cannot separate them. *(The follow-up seed sweep settled this: A alone
+  ranges 4–7/8 across seeds, and B and C 5–8, so the jump was mostly seed noise.)*
 
 ### Extra check: are the answers coming from the story?
 
@@ -499,6 +547,96 @@ from context and inverting relationships like above/below. Coverage decided whic
 learning decided which were right. What I can't claim is that it understands negation or space in general. These 48
 tests guided my choices, and the chat transcript shows it falls apart on anything outside its training patterns.
 
+## Follow-up experiments (optional): seeds, training length, learning rate, depth
+
+The required comparison rests on one run per corpus. So I reran the experiment 36 more times, changing one setting at a time,
+to see which conclusions survive. Every run uses the notebook's own code
+([`experiments/run_experiment.py`](experiments/run_experiment.py) executes the code cells of `custom_llm.py`, which are
+identical to the notebook's), the same corpus files, and the same unchanged 48 evals.
+- **Checks on the runner itself.** Each override must match its line in the source exactly once, and each run's
+  `config.json` must record the requested value, or the run stops. At seed 42 with default settings, the runner
+  reproduced all three notebook runs exactly: same model hashes, same loss history, and the same 48/48 results in every
+  eval set. [`experiments/analyze.py`](experiments/analyze.py) re-checks this and refuses to summarize if any two runs
+  produced an identical model, which would mean an override silently failed.
+- **What a seed changes.** The single `SEED` controls the train/validation split, the starting weights, and the batch
+  order together. The spread across seeds is therefore ordinary run-to-run variation. Vocabulary and eval coverage were
+  the same in every run (24/48 scorable for A, 30/48 for B and C). The one exception: two C runs lost the word `wrong`,
+  which no eval uses.
+- **Extra probes.** Every model was also scored on the 12 flip/fresh probes and on 6 new **recency traps**
+  ([`probes/recency_trap_probes.json`](probes/recency_trap_probes.json)). In the traps, the correct word comes *first* and
+  the negated word comes *last* (`the kite is pink , not green . the kite is` → pink). Like the other probes, they were
+  written after seeing results and never used for training.
+
+Per-seed values, in seed order 42 / 1 / 2 / 3 (full table: [`experiments/summary.csv`](experiments/summary.csv); every run's
+model, losses, samples and eval files are in [`experiments/runs/`](experiments/runs/)). **Margin** = p(correct) − p(best
+wrong choice), averaged over a category's 3 cases.
+
+| Condition | Seeds | Correct /48 | Transfer /8 | Negation /3 | Spatial /3 | Negation margin | Spatial margin | Flip probes /6 | Fresh probes /6 | Recency traps /6 | Val loss |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| A | 42, 1, 2, 3 | 20 / 22 / 23 / 23 | 4 / 6 / 7 / 7 | 0 / 0 / 0 / 0 | 0 / 0 / 0 / 0 | n/a | n/a | 0 / 0 / 0 / 0 | 0 / 0 / 0 / 0 | n/a | 0.71 / 0.68 / 0.70 / 0.69 |
+| B | 42, 1, 2, 3 | 30 / 28 / 27 / 29 | 8 / 6 / 8 / 8 | 3 / 3 / 0 / 2 | 3 / 3 / 3 / 3 | 0.12 / 0.27 / -0.03 / 0.00 | 0.91 / 0.85 / 0.88 / 0.95 | 6 / 6 / 6 / 4 | 6 / 6 / 6 / 6 | 5 / 6 / 5 / 6 | 0.73 / 0.77 / 0.83 / 0.81 |
+| C | 42, 1, 2, 3 | 25 / 26 / 23 / 28 | 8 / 7 / 5 / 8 | 0 / 1 / 0 / 1 | 1 / 2 / 2 / 3 | -0.00 / -0.00 / -0.00 / -0.00 | -0.00 / -0.00 / 0.00 / 0.00 | 3 / 0 / 3 / 1 | 2 / 2 / 0 / 0 | 1 / 1 / 1 / 1 | 1.18 / 0.99 / 1.14 / 1.06 |
+| B_layers1 | 42, 1, 2, 3 | 28 / 29 / 29 / 29 | 8 / 8 / 8 / 8 | 2 / 2 / 3 / 2 | 2 / 3 / 2 / 3 | 0.17 / 0.13 / 0.14 / 0.11 | 0.30 / 0.36 / 0.51 / 0.44 | 6 / 5 / 5 / 4 | 6 / 5 / 5 / 5 | 3 / 3 / 3 / 4 | 0.75 / 0.79 / 0.85 / 0.84 |
+| B_layers4 | 42, 1, 2, 3 | 30 / 28 / 30 / 30 | 8 / 8 / 8 / 8 | 3 / 1 / 3 / 3 | 3 / 3 / 3 / 3 | 0.28 / -0.02 / 0.13 / 0.13 | 0.85 / 0.95 / 0.96 / 0.91 | 6 / 4 / 6 / 5 | 6 / 5 / 6 / 6 | 5 / 4 / 6 / 5 | 0.72 / 0.79 / 0.82 / 0.81 |
+| B_lr0.0001 | 42, 1, 2, 3 | 4 / 6 / 8 / 8 | 1 / 2 / 3 / 3 | 0 / 0 / 1 / 0 | 1 / 2 / 1 / 1 | -0.00 / -0.01 / -0.00 / -0.01 | -0.00 / 0.00 / -0.00 / -0.00 | 3 / 2 / 3 / 3 | 4 / 1 / 3 / 4 | 2 / 2 / 1 / 2 | 1.40 / 1.50 / 1.71 / 1.83 |
+| B_lr0.01 | 42, 1, 2, 3 | 28 / 30 / 30 / 26 | 7 / 8 / 8 / 5 | 3 / 3 / 3 / 3 | 2 / 3 / 3 / 2 | 0.96 / 0.98 / 0.98 / 0.98 | 0.66 / 0.85 / 0.67 / 0.50 | 6 / 6 / 6 / 6 | 6 / 6 / 6 / 6 | 5 / 6 / 5 / 6 | 0.74 / 0.76 / 0.82 / 0.77 |
+| B_lr0.03 | 42, 1, 2, 3 | 26 / 26 / 28 / 25 | 4 / 6 / 7 / 4 | 3 / 3 / 3 / 3 | 3 / 1 / 2 / 2 | 0.99 / 0.97 / 0.80 / 0.99 | 0.66 / 0.27 / 0.59 / 0.66 | 6 / 6 / 5 / 6 | 6 / 6 / 6 / 6 | 5 / 6 / 4 / 6 | 0.72 / 0.74 / 0.78 / 0.76 |
+| B_steps10000 | 42, 1, 2, 3 | 29 / 28 / 28 / 30 | 7 / 6 / 6 / 8 | 3 / 3 / 3 / 3 | 3 / 3 / 3 / 3 | 0.94 / 0.84 / 0.79 / 0.94 | 1.00 / 0.72 / 0.97 / 0.99 | 6 / 6 / 6 / 6 | 6 / 6 / 6 / 6 | 6 / 6 / 6 / 6 | 0.80 / 0.90 / 0.92 / 0.88 |
+
+**1. Seeds: spatial is robust, negation is fragile.**
+- **Spatial:** B scored 3/3 at every seed, with margins of 0.85–0.95.
+- **Negation:** the graded run's 3/3 was partly a good draw. Across seeds B scored 3, 3, 0, 2, with margins near zero at
+  two of them.
+- **Experiment C:** near chance at every seed (negation 0–1, margins ≈ 0), so the main conclusion holds. Keeping a
+  story's sentences together is what makes the pattern learnable.
+- **Starter transfer:** A alone ranged 4–7/8 across seeds, and B and C 5–8. The 4/8 → 8/8 jump in the main table was
+  mostly seed noise.
+
+**2. Training length: the "next experiment" I proposed, now run.** At 10,000 steps, B scored 3/3 on negation and 3/3 on
+spatial at *every* seed. The negation margin widened to 0.79–0.94, and every flip, fresh and recency probe passed
+(72/72). That matches my prediction that the copy pattern was still being learned at step 3,000.
+
+The surprise is that **validation loss got worse** (0.73–0.83 → 0.80–0.92) while the skill got better. Loss averages over
+every token, most of which are unpredictable names, colors and objects. Longer training most likely made the model
+overconfident on those, while the answer token that the evals measure is a tiny share of the total. Loss alone would
+have told me to stop early.
+
+**3. Learning rate: this puts real evidence behind the "too small / too large" question.**
+- **0.0001 is too small.** After 3,000 steps the model had barely learned: 4–8/48, with validation loss 1.40–1.83.
+- **0.01 learned negation far better** than the default 0.001: 3/3 at every seed, with margins 0.96–0.98 instead
+  of ≈0.1. Spatial was slightly weaker (2–3/3).
+- **0.03 is too large, but it didn't crash.** Warmup and gradient clipping keep it stable, and the loss looks normal.
+  Instead it does worse on spatial (1–3/3) and transfer (4–7/8).
+- **Loss can't see these differences.** Validation loss at 0.01 and 0.001 is about the same, even though the negation
+  behavior is completely different.
+
+**4. Architecture: how many layers the copy needs.** One layer (73,600 parameters) versus the default two (123,584) versus
+four (223,552), all on corpus B.
+- **One layer still passed 2–3 of the 3 negation evals, but that was a shortcut.** All three eval cases put the correct
+  word *last* ("not red . it is **blue**"), so "pick the most recent color or food" passes them. On the recency traps,
+  where that shortcut gives the wrong answer, the 1-layer model scored only 3–4/6 and chose the negated word 1–3 times.
+- **Two and four layers scored 4–6/6 on the traps.** In a trap the correct word is the one that followed the same
+  phrase earlier ("the kite is **pink** … the kite is"). Copying "what came after this phrase last time" is the job of an
+  **induction head**, a pair of attention layers working together (Olsson et al., 2022). A single layer cannot build one.
+- **Four layers added little over two** on this small corpus, and at one seed negation dropped to 1/3.
+- **Spatial margins fell to 0.30–0.51 with one layer**, versus 0.85–0.95 with two.
+
+These results are consistent with the induction-head account, but I did not inspect individual attention heads, so they
+support it rather than prove it.
+
+**What this changes.**
+- The graded Experiment B, and the model used in the chat, remain the seed-42 default run. Nothing above replaced it.
+- If I were training the final model again, I would use corpus B with 10,000 steps (or learning rate 0.01).
+- The largest weakness revealed is in the evals: the three negation cases can be passed with a recency shortcut.
+- All of this is still development evidence. The probes were written after seeing results, and 4 seeds per condition is
+  a small sample.
+
+Reproduce: `python experiments/run_experiment.py --name B_seed1 --corpus corpus --seed 1` (see the file for all
+options). Then score the traps with `python run_evals.py --model experiments/runs/B_seed1/model.pt --suite
+probes/recency_trap_probes.json --output experiments/runs/B_seed1/recency_probes`, and run
+`python experiments/analyze.py`. The full plan is in [`experiments/plan.txt`](experiments/plan.txt). Runs took 10–50
+seconds each, 4 at a time.
+
 ## Limitation and next experiment
 
 **Observed limitation.** Negation was learned only weakly. The model picks the right word among four, but with small
@@ -508,16 +646,15 @@ tasks. Spatial answers are a fixed flip (`above` always pairs with `below`), whi
 rule. Negation requires copying an arbitrary word from earlier in the context, which a two-layer, 64-dimension model
 does less reliably after 3,000 steps.
 
-**Next experiment.** Train Experiment B with 3 different seeds and also at 10,000 steps, changing one thing at a time.
-- *Seeds* answer whether the 4/8 → 8/8 transfer jump and the thin negation margins are real or luck of one
-  initialization.
-- *Steps* test whether copying keeps improving. B's validation loss was still falling slightly between steps 1,500 and
-  3,000 (0.766 → 0.726), while A's barely moved (0.718 → 0.706).
+**Next experiment (proposed, then run).** I proposed rerunning Experiment B with 3 more seeds and with 10,000 steps.
+I predicted spatial would stay at 3/3, negation margins would widen with more steps, and the transfer score would vary
+by seed. All three held; see [Follow-up experiments](#follow-up-experiments-optional-seeds-training-length-learning-rate-depth).
 
-Prediction: the spatial results stay at 3/3 across seeds. Negation margins widen with more steps, because the copy pattern
-is still being learned. The transfer score varies by seed, which would show it was mostly initialization. For a
-generalization claim, I would add a fresh set of negation and spatial cases written *before* training that never
-influences the corpus.
+**The next one after that.** Write a fresh negation test set *before* training, and never let it guide the corpus. In it,
+the correct word would be neither the most recent candidate nor the one after a repeated phrase, for example
+`the box is not red . it is blue . what color is the box ? it is`. Train corpus B with 10,000 steps across several
+seeds. My prediction: the 2-layer model keeps most of its accuracy, and the 1-layer model falls to chance. That would be
+the first result here that is not a development-benchmark number.
 
 ## Notes on honesty and scope
 
