@@ -426,22 +426,78 @@ becomes `<UNK>`, and even the words it knows get stitched into templates regardl
 
 ## What I learned (in my own words)
 
-> **TODO (Travis):** answer each question in your own words, using the actual values above.
+**1. What is my corpus, what can it teach, and what is missing? Why hold data out?**
 
-1. **Corpus.** What is my corpus, what can it teach, and what is missing? Why hold data out?
-   *(Hooks: 133 → 316 word types; `is` was missing from the starter; 18 extension cases never covered; 90/10 split by passage, not file.)*
-2. **Token, ID, vector, embedding.** How do they differ?
-   *(Hooks: `customer` → ID 28 → row 28 of a 136 × 64 table; same word, same ID, a different vector after training.)*
-3. **Neural network and learning.** What makes this a neural network? How did loss, gradients, and the optimizer change
-   its weights? *(Hooks: loss 4.93 → 0.68; gradient +0.00069 → move of −0.00001 = lr on AdamW's first step.)*
-4. **Attention.** What does it combine, and why can it not look at future tokens?
-   *(Hooks: the `customer` row puts 0.49 / 0.42 / 0.09 on `<BOS>` / `the` / itself; future positions are exactly 0. The
-   negation copy in B needs attention reaching back several sentences, which C never got to practice.)*
-5. **Generation and temperature.** How do probabilities become text? What changed with temperature, and did any weights
-   change? *(Hooks: A's 0.8 and 1.2 were identical; B's 1.2 broke the negation pattern; weights unchanged.)*
-6. **Did the evidence support my predictions?** What can I honestly conclude?
-   *(Hooks: loss and coverage predictions held; the negation prediction held but with thin margins; I did not predict
-   the transfer jump and cannot attribute it; spatial learned more strongly than negation.)*
+This corpus is extremely limited. The starter corpus had only 133 distinct words, and it didn't even include words like
+"it," "is," or "not," so the model is always going to be very limited. It's missing a ton of contextual information and
+can only continue a few basic sentence patterns.
+
+The holdout data is extremely important in machine learning. We can train all we want, but training alone can lead to
+overfitting (i.e., the model just memorizing the training data), so we test it against a holdout set that is never used
+for training, and then compare the two losses. We're at 0.678 on training and 0.706 on validation, so the model is not
+just memorizing individual sentences. One caveat: the split is by passage, so validation sentences come from the same
+templates as training. That shows the model handles new sentences from familiar templates, not new kinds of text.
+
+**2. How do a token, token ID, vector, and embedding differ?**
+
+The token is simply a unit of text; in this project that's a whole word or a punctuation mark (other models also split
+words into smaller pieces). The ID is just the identifier given to the token. For example, "customer" was ID 28, so it
+maps to row 28 of a 136-by-64 embedding table: 136 vocabulary entries with 64 numbers each. The vector is simply a list
+of numbers, 64 of them in this case. The embedding is the learned vector stored at the token's row. It's essentially
+where the model keeps what it has learned about that word, although that is only partially true: much of what the model
+knows also lives in the attention and feed-forward weights, not only in the embedding row. The ID never changes during
+training, but the vector does; after training, row 28 pointed in a very different direction (cosine similarity 0.20 with
+its starting values).
+
+**3. What makes this a neural network? How did loss, gradients, and the optimizer change its weights?**
+
+What makes this a neural network is that it's a large function made of layers of adjustable numbers, which are the
+weights, with nonlinear steps between them. We have two transformer blocks and 111,872 weights in total. We start with
+random weights, have the model predict the next word, and measure how far those predictions are from the actual next
+words; that gap is the loss. The loss here is cross-entropy, and it fell from 4.93 (about what you get by guessing
+randomly among 136 words) to 0.68 after 3,000 steps. We use backpropagation to compute the gradient, which is each
+weight's marginal effect on the loss, and then the optimizer, AdamW, nudges the weights in the direction that reduces
+the loss. For example, the first number in "customer"'s vector had a gradient of +0.00069. Positive means raising this
+weight raises the loss, so the optimizer lowered it, from −0.0575919 to −0.0576019.
+
+**4. What does attention combine, and why can it not look at future tokens?**
+
+*Attention Is All You Need.* For each word, attention asks which earlier words matter for predicting what comes next,
+and then takes a weighted blend of those words. The weights are computed fresh for each sentence based on what's
+actually behind it. In my run, "customer" put 0.49 of its attention on the start token, 0.42 on "the," and 0.09 on
+itself. There's also a no-future rule, the causal mask, to avoid look-ahead bias. Training asks the model to predict the
+next word; if it could see the next word, it would simply copy it and learn nothing. It also can't use future words when
+generating, because the future hasn't been written yet. Experiments B and C show why attention over earlier sentences
+matters: B learned to reach back to the corrected word ("it is blue") and scored 3/3 on negation, while C, trained on
+the same words with every sentence split apart, never saw a premise and its question together and scored 0/3.
+
+**5. How do probabilities become generated text? What changed with temperature, and did any weights change?**
+
+Text generation is a loop. The model scores every word in its vocabulary, turns those scores into probabilities, then
+randomly draws one word according to those probabilities. It appends that word and repeats the process until it reaches
+the end token or hits a length limit.
+
+Low temperature piles more probability onto the most likely word, and high temperature spreads it out toward less
+likely words. High temperature is more error-prone but also more creative. Low temperature is not quite deterministic,
+but it's the closest thing to a deterministic response. In technical terms, the raw scores are logits, and the model
+simply divides them by the temperature before the softmax. No weights change: it's the same trained model, and only the
+sampling setting is different.
+
+In Experiment A, temperatures 0.8 and 1.2 produced identical text for all four samples. The trained distributions were
+so peaked that flattening them didn't change where the same draw landed. In Experiment B, temperature 1.2 broke the
+negation pattern: `what did ravi eat ? ravi cooked eggs` has the wrong verb and the wrong food.
+
+**6. Did the samples and both loss curves support my prediction? What can I honestly conclude?**
+
+Mostly, yes. The loss started near a random guess and fell below 1, validation loss tracked training loss, the expanded
+corpus made exactly the 6 targeted cases scorable, and negation and spatial relations both scored 3/3 (although negation
+won by thin margins, like milk 0.081 vs. tea 0.052). One thing I didn't predict was the starter-transfer score jumping
+from 4/8 to 8/8, and I can't attribute that to the corpus because the starting weights also changed.
+
+The model learned narrow patterns inside its templates, and with the right multi-sentence data that includes copying
+from context and inverting relationships like above/below. Coverage decided which cases could be scored; pattern
+learning decided which were right. What I can't claim is that it understands negation or space in general. These 48
+tests guided my choices, and the chat transcript shows it falls apart on anything outside its training patterns.
 
 ## Limitation and next experiment
 
@@ -469,7 +525,8 @@ influences the corpus.
   next-word tests. It does not show that the model understands negation or space in general, and the chat transcript
   shows how narrow it is.
 - An AI coding assistant (Claude Code) helped write `make_corpus.py`, `check_leakage.py`, the probe cases, and this
-  README's evidence sections. All numbers come from the saved run files linked above. The model is Karpathy's nanoGPT,
+  README's evidence sections. The "What I learned" answers are my own, dictated and then edited for clarity and
+  technical accuracy. All numbers come from the saved run files linked above. The model is Karpathy's nanoGPT,
   trained from scratch; no pretrained weights and no API were used.
 - The unexecuted `custom_llm.ipynb` and `custom_llm.py` are the course template, left unchanged. My runs use copies,
   edited only in the settings cell and the prediction cell.
