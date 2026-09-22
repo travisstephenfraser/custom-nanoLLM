@@ -158,10 +158,18 @@ Result: [0 violations in 3,200 passages](results/leakage/corpus.json). The longe
 any eval prompt is 6 tokens, for example `is not red . it is` (lang_31) and `the desk . the desk is` (lang_41). These are shared sentence frames with different objects and answers, and every run is listed per case in the report. The audit refuses to
 report a clean result if it finds no passages, and before scanning it proves it can catch a planted copy of a real eval
 prompt. The notebook's own check also ran: 160 generated classroom sentences containing the 16 reserved starter
-prefixes were withheld before the split in both runs ([A](llm_runs/20260921T190059_023596Z/eval_separation.json),
-[B](llm_runs/20260921T190646_349052Z/eval_separation.json)). Both checks match word sequences, not meaning. A
-paraphrase of a test item would pass them, which is why rules 2–5 exist and why I also reviewed the generated text by
-eye.
+prefixes were withheld before the split in all three runs ([A](llm_runs/20260921T190059_023596Z/eval_separation.json),
+[B](llm_runs/20260921T190646_349052Z/eval_separation.json), [C](llm_runs/20260921T190700_291475Z/eval_separation.json)).
+Both checks match word sequences, not meaning. A paraphrase of a test item would pass them, which is why rules 2–5
+exist and why I also reviewed the generated text by eye.
+
+**One caveat about the supplied classroom corpus.** I also audited each run's full training text (`corpus.txt`,
+classroom sentences included). No passage in any run holds all of a case's prompt content words plus its answer, and
+the eight new_wording subjects (nurse, educator, bond …) never appear at all. The classroom sentences do, however,
+teach the domain pairings in other frames: `our store has a question about the new customer and service .` sits in
+training while lang_09 asks `the team discussed the customer and the service at the → store`. So the domain_context
+and domain_place scores (lang_01–16) measure recall of pairings the course corpus teaches directly, not
+generalization. This text is identical in A, B, and C, so it does not affect the comparisons between them.
 
 ## Runs
 
