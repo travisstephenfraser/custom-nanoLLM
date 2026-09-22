@@ -1,0 +1,70 @@
+{
+  "model": "llm_runs/20260921T190646_349052Z/model.pt",
+  "model_sha256": "dff0528a316774036538b0b380ed3df0d36c924742ab7e1373c16504b84dd657",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "can you give me a poem about dogs?",
+      "seed": 2026,
+      "response": "ravi is north of hospital .",
+      "unknown_prompt_words": [
+        "can",
+        "dogs",
+        "give",
+        "me",
+        "poem",
+        "you"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "what do?",
+      "seed": 2027,
+      "response": "the apple is they is not black . it is gray .",
+      "unknown_prompt_words": [
+        "do"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "hi",
+      "seed": 2028,
+      "response": "the store focused on iris is south of the station .",
+      "unknown_prompt_words": [
+        "hi"
+      ],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the cup is above the plate . the plate is",
+      "seed": 2029,
+      "response": "below the cup .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the coin is inside the jar . the jar contains the",
+      "seed": 2030,
+      "response": "coin .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "mia did not drink juice . she drank cocoa . mia drank",
+      "seed": 2031,
+      "response": "lemonade .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the report about the nurse explains the",
+      "seed": 2032,
+      "response": "health in detail .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    }
+  ]
+}

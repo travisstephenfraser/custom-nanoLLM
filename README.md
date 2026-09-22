@@ -402,7 +402,7 @@ chat text to the corpus.
 ```
 
 Type a prompt and press Enter; `/quit` saves the transcript. The model used is **Experiment B, trained**, 3,000 steps
-(model SHA-256 recorded in the transcript). It is a tiny language model: it *continues* text rather than answering.
+(model SHA-256 `dff0528a…`, recorded in the transcript). It is a tiny language model: it *continues* text rather than answering.
 Every prompt starts fresh with no memory of earlier turns, at temperature 0.8 and up to 24 new tokens, with a new seed
 per turn. Only the last 48 tokens fit in the context window. Unknown words are listed after each reply and enter the
 model as `<UNK>`.
