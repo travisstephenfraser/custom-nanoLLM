@@ -1,0 +1,1600 @@
+the door is below the ball .where is the ball ?the ball is above the door .
+the bottle is left of the sofa .the sofa is to the right of the bottle .
+theo sat beside the picture .the picture is beside theo .
+the farm is south of the store .so the store is to the north .
+ruby put the sock inside the basket .now the basket contains the sock .
+the jar is left of the hat .the hat is to the right of the jar .
+ava put the book above the vase .now the vase is below the book .
+lucy put the pen below the window .now the window is above the pen .
+we drove from the lake to the hospital .the hospital is south of the lake .the lake is north of the hospital .
+the bowl contains the sock .the sock is inside the bowl .
+the cup is left of the bed .so the bed is to the right .
+the desk is under the mirror .the mirror is on the desk .
+we drove from the forest to the market .the market is north of the forest .the forest is south of the market .
+the vase is right of the sink .so the sink is to the left .
+the box is below the phone .where is the phone ?the phone is above the box .
+max is left of lily .where is lily ?lily is to the right of max .
+the sofa is above the shelf .the shelf is below the sofa .
+the clock is left of the book .so the book is to the right .
+jade put the letter inside the jar .now the jar contains the letter .
+the table is left of the bed .the bed is to the right of the table .
+hugo put the cup inside the jar .now the jar contains the cup .
+the basket is beside the jar .the jar is beside the basket .
+the lamp is right of the mirror .where is the mirror ?the mirror is to the left of the lamp .
+the cup is to the left of the chair .the chair is to the right of the cup .
+the apple is inside the fridge .what does the fridge contain ?the fridge contains the apple .
+the door is to the left of the plate .the plate is to the right of the door .
+kai is right of ruby .where is ruby ?ruby is to the left of kai .
+the basket contains the ticket .the ticket is inside the basket .
+the box is above the bed .the bed is below the box .
+the cup is on the hat .the hat is under the cup .
+the ring is not on the table .it is inside the bowl .the bowl contains the ring .
+hugo put the plate above the sink .now the sink is below the plate .
+the box is below the sink .so the sink is above the box .
+the basket is to the left of the clock .the clock is to the right of the basket .
+the office is south of the park .so the park is to the north .
+we drove from the bridge to the hospital .the hospital is south of the bridge .the bridge is north of the hospital .
+we drove from the beach to the forest .the forest is south of the beach .the beach is north of the forest .
+the forest is south of the school .so the school is to the north .
+the bowl is to the right of the bag .the bag is to the left of the bowl .
+the pear is inside the bowl .the bowl contains the pear .
+the phone is right of the clock .where is the clock ?the clock is to the left of the phone .
+the hat is above the sofa .so the sofa is below the hat .
+the mirror is left of the phone .the phone is to the right of the mirror .
+the box is below the sofa .where is the sofa ?the sofa is above the box .
+the vase is left of the clock .the clock is to the right of the vase .
+the bottle is above the jar .so the jar is below the bottle .
+the store is north of the bridge .so the bridge is to the south .
+the lamp is right of the cup .where is the cup ?the cup is to the left of the lamp .
+the cup is right of the coat .the coat is to the left of the cup .
+the jar is right of the door .the door is to the left of the jar .
+the ticket is inside the bottle .what does the bottle contain ?the bottle contains the ticket .
+the ball is not on the table .it is inside the cup .the cup contains the ball .
+the cup is inside the jar .the jar contains the cup .
+we drove from the station to the hospital .the hospital is south of the station .the station is north of the hospital .
+the bed is beside the chair .the chair is beside the bed .
+the pear is inside the cup .the cup contains the pear .
+anna sat beside the coat .the coat is beside anna .
+lucy is to the right of owen .owen is to the left of lucy .
+ivan is to the left of mia .mia is to the right of ivan .
+ben is right of ivan .where is ivan ?ivan is to the left of ben .
+theo is left of owen .owen is to the right of theo .
+ruby put the box below the sink .now the sink is above the box .
+the picture is right of the lamp .so the lamp is to the left .
+owen put the apple inside the fridge .now the fridge contains the apple .
+the cup contains the banana .the banana is inside the cup .
+the ball is above the bed .the bed is below the ball .
+the clock is below the door .the door is above the clock .
+ben put the hat above the door .now the door is below the hat .
+the basket is above the bed .so the bed is below the basket .
+lucy is to the right of ravi .ravi is to the left of lucy .
+the sink is to the right of the phone .the phone is to the left of the sink .
+the sink is above the key .so the key is below the sink .
+the clock is above the sofa .so the sofa is below the clock .
+mia is to the left of sam .sam is to the right of mia .
+jade put the key inside the fridge .now the fridge contains the key .
+the mirror is above the sofa .the sofa is below the mirror .
+the card is inside the closet .what does the closet contain ?the closet contains the card .
+lucy sat beside the chair .the chair is beside lucy .
+the cup is above the vase .where is the vase ?the vase is below the cup .
+ravi is to the right of ruby .ruby is to the left of ravi .
+the phone is below the picture .where is the picture ?the picture is above the phone .
+the key is not on the table .it is inside the bowl .the bowl contains the key .
+the market is north of the park .the park is south of the market .
+the rug is below the picture .the picture is above the rug .
+the peach is not on the table .it is inside the suitcase .the suitcase contains the peach .
+the table is left of the chair .the chair is to the right of the table .
+the chair is beside the plate .the plate is beside the chair .
+the bowl is above the box .so the box is below the bowl .
+the coat is on the window .the window is under the coat .
+the plate is beside the window .the window is beside the plate .
+the hat is beside the cup .the cup is beside the hat .
+iris put the hat above the bowl .now the bowl is below the hat .
+the cup is right of the table .so the table is to the left .
+the picture is below the sofa .where is the sofa ?the sofa is above the picture .
+kai put the coin inside the box .now the box contains the coin .
+ivan put the map inside the suitcase .now the suitcase contains the map .
+max put the rug above the shelf .now the shelf is below the rug .
+lily is left of ava .where is ava ?ava is to the right of lily .
+the pen is inside the box .the box contains the pen .
+the sofa is above the plate .where is the plate ?the plate is below the sofa .
+max put the book above the bottle .now the bottle is below the book .
+the bottle is below the table .where is the table ?the table is above the bottle .
+sam put the picture below the table .now the table is above the picture .
+the chair is below the hat .the hat is above the chair .
+the shelf is right of the chair .where is the chair ?the chair is to the left of the shelf .
+the chair is left of the bed .where is the bed ?the bed is to the right of the chair .
+the sink is above the basket .so the basket is below the sink .
+the school is north of the bank .the bank is south of the school .
+the lamp is left of the jar .the jar is to the right of the lamp .
+the ticket is inside the box .what does the box contain ?the box contains the ticket .
+the bottle is under the book .the book is on the bottle .
+jade is to the left of ruby .ruby is to the right of jade .
+the plate is right of the rug .where is the rug ?the rug is to the left of the plate .
+the forest is south of the store .the store is north of the forest .
+the rug is below the door .so the door is above the rug .
+we drove from the field to the river .the river is north of the field .the field is south of the river .
+the mirror is below the ball .so the ball is above the mirror .
+the picture is above the sofa .the sofa is below the picture .
+ruby put the cup inside the basket .now the basket contains the cup .
+the jar is below the bottle .the bottle is above the jar .
+the key is above the box .the box is below the key .
+the bottle is on the clock .the clock is under the bottle .
+the sink is below the rug .the rug is above the sink .
+kai put the ring inside the cabinet .now the cabinet contains the ring .
+the sock is not on the table .it is inside the bowl .the bowl contains the sock .
+the phone is inside the bottle .the bottle contains the phone .
+max put the bottle above the mirror .now the mirror is below the bottle .
+the basket is to the left of the shelf .the shelf is to the right of the basket .
+the picture is above the rug .so the rug is below the picture .
+the chair is beside the phone .the phone is beside the chair .
+the card is inside the box .what does the box contain ?the box contains the card .
+the ball is above the shelf .the shelf is below the ball .
+the mirror is below the sink .the sink is above the mirror .
+the desk is right of the chair .where is the chair ?the chair is to the left of the desk .
+the shelf is right of the door .so the door is to the left .
+the banana is not on the table .it is inside the jar .the jar contains the banana .
+the window is below the box .the box is above the window .
+the hat is below the mirror .so the mirror is above the hat .
+the drawer contains the phone .the phone is inside the drawer .
+the bottle contains the card .the card is inside the bottle .
+jack sat beside the plate .the plate is beside jack .
+the cup is below the sofa .the sofa is above the cup .
+the ball is below the bed .the bed is above the ball .
+the fridge contains the sock .the sock is inside the fridge .
+the key is left of the bowl .the bowl is to the right of the key .
+ava is to the right of hugo .hugo is to the left of ava .
+ben sat beside the vase .the vase is beside ben .
+the plate is to the right of the sink .the sink is to the left of the plate .
+the bed is above the chair .where is the chair ?the chair is below the bed .
+the plate is below the window .where is the window ?the window is above the plate .
+we drove from the lake to the bank .the bank is south of the lake .the lake is north of the bank .
+the jar is above the rug .where is the rug ?the rug is below the jar .
+the picture is above the pen .so the pen is below the picture .
+the card is inside the cabinet .what does the cabinet contain ?the cabinet contains the card .
+the box is above the clock .so the clock is below the box .
+the chair is right of the bottle .so the bottle is to the left .
+hugo put the clock below the vase .now the vase is above the clock .
+the coin is inside the cabinet .what does the cabinet contain ?the cabinet contains the coin .
+the card is inside the drawer .what does the drawer contain ?the drawer contains the card .
+the basket contains the letter .the letter is inside the basket .
+max put the map inside the bowl .now the bowl contains the map .
+the toy is not on the table .it is inside the cup .the cup contains the toy .
+the cup is under the pen .the pen is on the cup .
+the card is not on the table .it is inside the cabinet .the cabinet contains the card .
+the box is below the coat .the coat is above the box .
+the mirror is below the bowl .where is the bowl ?the bowl is above the mirror .
+the sofa is left of the bag .where is the bag ?the bag is to the right of the sofa .
+the shelf is right of the sofa .the sofa is to the left of the shelf .
+the clock is to the left of the plate .the plate is to the right of the clock .
+the key is above the phone .so the phone is below the key .
+the letter is not on the table .it is inside the bottle .the bottle contains the letter .
+the vase is below the bottle .the bottle is above the vase .
+the beach is south of the station .so the station is to the north .
+the sink is above the bed .the bed is below the sink .
+the bowl is left of the jar .where is the jar ?the jar is to the right of the bowl .
+the phone is right of the sofa .the sofa is to the left of the phone .
+the bowl is to the right of the hat .the hat is to the left of the bowl .
+the letter is inside the fridge .what does the fridge contain ?the fridge contains the letter .
+the key is above the pen .so the pen is below the key .
+jack put the mirror above the bed .now the bed is below the mirror .
+the pen is inside the basket .what does the basket contain ?the basket contains the pen .
+rosa put the basket above the vase .now the vase is below the basket .
+the picture is above the bed .the bed is below the picture .
+the basket contains the key .the key is inside the basket .
+the table is below the bag .the bag is above the table .
+the jar contains the pen .the pen is inside the jar .
+the mirror is to the left of the sink .the sink is to the right of the mirror .
+the hat is above the bed .so the bed is below the hat .
+the market is south of the tower .so the tower is to the north .
+the vase is above the picture .the picture is below the vase .
+the bottle is above the box .the box is below the bottle .
+we drove from the hospital to the bank .the bank is south of the hospital .the hospital is north of the bank .
+ravi put the sofa below the mirror .now the mirror is above the sofa .
+the phone is not on the table .it is inside the jar .the jar contains the phone .
+the bowl is above the bottle .the bottle is below the bowl .
+hugo put the ticket inside the drawer .now the drawer contains the ticket .
+the hat is above the chair .so the chair is below the hat .
+the bag is to the left of the chair .the chair is to the right of the bag .
+the peach is inside the box .the box contains the peach .
+the pen is below the bowl .where is the bowl ?the bowl is above the pen .
+the rug is right of the clock .so the clock is to the left .
+the phone is beside the book .the book is beside the phone .
+the bowl is right of the lamp .so the lamp is to the left .
+the sink is below the phone .the phone is above the sink .
+the mango is not on the table .it is inside the suitcase .the suitcase contains the mango .
+the cup is right of the rug .the rug is to the left of the cup .
+the cup is above the bowl .so the bowl is below the cup .
+the bottle is above the sofa .the sofa is below the bottle .
+the river is south of the hospital .the hospital is north of the river .
+the phone is inside the cup .what does the cup contain ?the cup contains the phone .
+the clock is right of the sink .the sink is to the left of the clock .
+iris put the mango inside the bottle .now the bottle contains the mango .
+zoe is right of kai .so kai is to the left .
+the shelf is to the left of the mirror .the mirror is to the right of the shelf .
+the clock is right of the door .so the door is to the left .
+the map is not on the table .it is inside the basket .the basket contains the map .
+the sofa is to the left of the picture .the picture is to the right of the sofa .
+the cup is right of the picture .so the picture is to the left .
+the ring is inside the basket .the basket contains the ring .
+the table is on the cup .the cup is under the table .
+anna put the phone inside the bowl .now the bowl contains the phone .
+the key is below the basket .the basket is above the key .
+the bowl is below the hat .the hat is above the bowl .
+the door is on the sink .the sink is under the door .
+the ticket is inside the fridge .what does the fridge contain ?the fridge contains the ticket .
+rosa is right of ava .where is ava ?ava is to the left of rosa .
+the picture is right of the rug .so the rug is to the left .
+the village is south of the store .the store is north of the village .
+ava put the shelf above the ball .now the ball is below the shelf .
+the bed is below the cup .where is the cup ?the cup is above the bed .
+the ball is beside the box .the box is beside the ball .
+the sink is left of the bottle .so the bottle is to the right .
+the bowl is above the table .the table is below the bowl .
+max put the ball below the plate .now the plate is above the ball .
+the sock is not on the table .it is inside the drawer .the drawer contains the sock .
+the station is south of the forest .so the forest is to the north .
+sam put the coat above the clock .now the clock is below the coat .
+the sink is to the left of the book .the book is to the right of the sink .
+the apple is not on the table .it is inside the basket .the basket contains the apple .
+theo put the cup below the sofa .now the sofa is above the cup .
+the box is above the cup .the cup is below the box .
+the sofa is to the left of the bowl .the bowl is to the right of the sofa .
+the shelf is left of the bowl .so the bowl is to the right .
+we drove from the station to the village .the village is south of the station .the station is north of the village .
+the lamp is right of the picture .where is the picture ?the picture is to the left of the lamp .
+the window is below the bottle .so the bottle is above the window .
+the coat is above the bed .so the bed is below the coat .
+the picture is below the box .the box is above the picture .
+the phone is on the vase .the vase is under the phone .
+the ticket is not on the table .it is inside the fridge .the fridge contains the ticket .
+the phone is inside the fridge .what does the fridge contain ?the fridge contains the phone .
+ava put the basket above the clock .now the clock is below the basket .
+we drove from the river to the hospital .the hospital is north of the river .the river is south of the hospital .
+the vase is under the box .the box is on the vase .
+the table is to the left of the sink .the sink is to the right of the table .
+the window is above the cup .so the cup is below the window .
+the box contains the peach .the peach is inside the box .
+the bottle is right of the lamp .where is the lamp ?the lamp is to the left of the bottle .
+jack put the cup above the key .now the key is below the cup .
+the ball is not on the table .it is inside the basket .the basket contains the ball .
+the table is on the hat .the hat is under the table .
+the sink is to the left of the cup .the cup is to the right of the sink .
+zoe is to the right of ruby .ruby is to the left of zoe .
+ben is right of iris .iris is to the left of ben .
+the vase is left of the pen .the pen is to the right of the vase .
+the sock is inside the fridge .what does the fridge contain ?the fridge contains the sock .
+the sofa is below the hat .the hat is above the sofa .
+the sofa is to the right of the pen .the pen is to the left of the sofa .
+the sink is below the window .so the window is above the sink .
+the coat is below the basket .so the basket is above the coat .
+mia is right of yuki .where is yuki ?yuki is to the left of mia .
+the book is to the left of the sofa .the sofa is to the right of the book .
+the bank is south of the station .so the station is to the north .
+the sofa is above the clock .so the clock is below the sofa .
+sam put the ticket inside the cup .now the cup contains the ticket .
+the door is above the basket .the basket is below the door .
+ben is to the right of iris .iris is to the left of ben .
+the ball is inside the bowl .what does the bowl contain ?the bowl contains the ball .
+we drove from the park to the station .the station is south of the park .the park is north of the station .
+the shelf is above the window .the window is below the shelf .
+the vase is beside the sink .the sink is beside the vase .
+the mango is inside the jar .what does the jar contain ?the jar contains the mango .
+the apple is not on the table .it is inside the box .the box contains the apple .
+the sofa is above the bed .so the bed is below the sofa .
+the plate is left of the sink .so the sink is to the right .
+the hospital is north of the market .so the market is to the south .
+the bowl is above the plate .where is the plate ?the plate is below the bowl .
+we drove from the hospital to the field .the field is north of the hospital .the hospital is south of the field .
+the jar contains the toy .the toy is inside the jar .
+yuki put the coin inside the bowl .now the bowl contains the coin .
+the phone is above the coat .the coat is below the phone .
+we drove from the store to the hospital .the hospital is south of the store .the store is north of the hospital .
+the picture is to the left of the basket .the basket is to the right of the picture .
+the table is right of the chair .so the chair is to the left .
+the coin is not on the table .it is inside the box .the box contains the coin .
+ivan put the bag above the cup .now the cup is below the bag .
+the bed is below the plate .so the plate is above the bed .
+the plate is below the chair .the chair is above the plate .
+the picture is left of the clock .so the clock is to the right .
+ava sat beside the desk .the desk is beside ava .
+theo is right of ravi .so ravi is to the left .
+the apple is inside the cup .what does the cup contain ?the cup contains the apple .
+yuki is left of ravi .where is ravi ?ravi is to the right of yuki .
+jade put the map inside the suitcase .now the suitcase contains the map .
+the vase is to the right of the rug .the rug is to the left of the vase .
+kai is to the left of max .max is to the right of kai .
+the table is below the basket .where is the basket ?the basket is above the table .
+the store is north of the village .so the village is to the south .
+the bottle contains the cup .the cup is inside the bottle .
+the mirror is on the coat .the coat is under the mirror .
+the river is north of the farm .so the farm is to the south .
+the ball is inside the closet .what does the closet contain ?the closet contains the ball .
+the pen is inside the drawer .what does the drawer contain ?the drawer contains the pen .
+the mirror is below the vase .so the vase is above the mirror .
+the plate is beside the book .the book is beside the plate .
+theo is to the right of mia .mia is to the left of theo .
+the cup is below the bowl .where is the bowl ?the bowl is above the cup .
+the hat is left of the mirror .so the mirror is to the right .
+the box contains the mango .the mango is inside the box .
+the store is north of the lake .the lake is south of the store .
+the lamp is on the table .the table is under the lamp .
+the bottle contains the ticket .the ticket is inside the bottle .
+the bank is north of the store .so the store is to the south .
+the plate is below the jar .where is the jar ?the jar is above the plate .
+sam put the picture above the key .now the key is below the picture .
+the river is south of the station .the station is north of the river .
+the mirror is right of the book .the book is to the left of the mirror .
+the field is north of the lake .so the lake is to the south .
+ivan is left of ben .so ben is to the right .
+the jar contains the ball .the ball is inside the jar .
+the plate is under the bowl .the bowl is on the plate .
+the coat is to the left of the shelf .the shelf is to the right of the coat .
+the rug is below the box .so the box is above the rug .
+the cabinet contains the key .the key is inside the cabinet .
+the farm is south of the station .the station is north of the farm .
+we drove from the farm to the school .the school is south of the farm .the farm is north of the school .
+iris put the mango inside the cup .now the cup contains the mango .
+jack put the phone below the sink .now the sink is above the phone .
+the ball is above the bowl .the bowl is below the ball .
+the chair is to the left of the cup .the cup is to the right of the chair .
+the phone is to the left of the picture .the picture is to the right of the phone .
+max is right of hugo .hugo is to the left of max .
+the jar is under the clock .the clock is on the jar .
+the sink is to the left of the window .the window is to the right of the sink .
+the hat is below the jar .the jar is above the hat .
+lily sat beside the sofa .the sofa is beside lily .
+the ticket is not on the table .it is inside the suitcase .the suitcase contains the ticket .
+the bag is to the left of the jar .the jar is to the right of the bag .
+the school is north of the village .the village is south of the school .
+the basket is above the door .so the door is below the basket .
+the hat is left of the bag .the bag is to the right of the hat .
+the lamp is beside the table .the table is beside the lamp .
+mia sat beside the bowl .the bowl is beside mia .
+hugo is right of ivan .ivan is to the left of hugo .
+the bag is right of the bottle .where is the bottle ?the bottle is to the left of the bag .
+the hat is above the table .the table is below the hat .
+the shelf is below the book .so the book is above the shelf .
+the office is north of the bridge .the bridge is south of the office .
+we drove from the beach to the store .the store is north of the beach .the beach is south of the store .
+mia is right of iris .iris is to the left of mia .
+the key is inside the cup .the cup contains the key .
+ravi put the basket above the vase .now the vase is below the basket .
+the bag is below the coat .where is the coat ?the coat is above the bag .
+the clock is left of the hat .where is the hat ?the hat is to the right of the clock .
+the key is above the vase .so the vase is below the key .
+the ball is below the table .so the table is above the ball .
+the bed is above the jar .the jar is below the bed .
+the rug is under the jar .the jar is on the rug .
+the pen is not on the table .it is inside the jar .the jar contains the pen .
+anna put the pen inside the fridge .now the fridge contains the pen .
+ava is to the right of ravi .ravi is to the left of ava .
+the plate is above the basket .the basket is below the plate .
+anna put the sock inside the jar .now the jar contains the sock .
+the pen is under the bottle .the bottle is on the pen .
+the key is under the coat .the coat is on the key .
+the door is below the window .so the window is above the door .
+we drove from the park to the market .the market is north of the park .the park is south of the market .
+the card is inside the jar .the jar contains the card .
+the river is north of the office .so the office is to the south .
+the shelf is to the right of the window .the window is to the left of the shelf .
+theo put the bowl below the sink .now the sink is above the bowl .
+rosa is left of theo .where is theo ?theo is to the right of rosa .
+the sock is inside the cup .what does the cup contain ?the cup contains the sock .
+the key is inside the cup .what does the cup contain ?the cup contains the key .
+the bottle is below the book .where is the book ?the book is above the bottle .
+the pen is left of the bed .so the bed is to the right .
+the table is above the ball .where is the ball ?the ball is below the table .
+the field is south of the store .the store is north of the field .
+lucy is to the right of kai .kai is to the left of lucy .
+the bag is below the door .where is the door ?the door is above the bag .
+anna is left of lucy .lucy is to the right of anna .
+the banana is inside the suitcase .what does the suitcase contain ?the suitcase contains the banana .
+the bag is above the pen .the pen is below the bag .
+the bed is under the bottle .the bottle is on the bed .
+ava put the bottle below the chair .now the chair is above the bottle .
+we drove from the river to the tower .the tower is south of the river .the river is north of the tower .
+yuki put the letter inside the closet .now the closet contains the letter .
+the key is below the box .so the box is above the key .
+the bag is above the vase .the vase is below the bag .
+the pen is below the key .where is the key ?the key is above the pen .
+ben put the key below the phone .now the phone is above the key .
+the door is above the sink .the sink is below the door .
+yuki put the mango inside the suitcase .now the suitcase contains the mango .
+the coat is above the key .the key is below the coat .
+the bed is right of the desk .so the desk is to the left .
+zoe put the pen inside the cabinet .now the cabinet contains the pen .
+the vase is above the jar .the jar is below the vase .
+the plate is under the lamp .the lamp is on the plate .
+the mirror is to the left of the door .the door is to the right of the mirror .
+the key is to the right of the shelf .the shelf is to the left of the key .
+the sock is inside the box .the box contains the sock .
+the shelf is below the cup .the cup is above the shelf .
+ivan is left of iris .iris is to the right of ivan .
+the mirror is below the bag .so the bag is above the mirror .
+lucy put the mango inside the cabinet .now the cabinet contains the mango .
+the basket is above the shelf .the shelf is below the basket .
+the pen is inside the bottle .what does the bottle contain ?the bottle contains the pen .
+the market is north of the office .so the office is to the south .
+the ticket is inside the closet .the closet contains the ticket .
+anna is to the right of theo .theo is to the left of anna .
+the mirror is right of the hat .so the hat is to the left .
+the chair is to the left of the table .the table is to the right of the chair .
+the clock is under the bed .the bed is on the clock .
+the chair is below the plate .the plate is above the chair .
+the sink is below the door .the door is above the sink .
+the bowl is beside the plate .the plate is beside the bowl .
+the hat is right of the shelf .the shelf is to the left of the hat .
+sam sat beside the window .the window is beside sam .
+the banana is inside the jar .what does the jar contain ?the jar contains the banana .
+the key is left of the book .where is the book ?the book is to the right of the key .
+ruby is left of theo .theo is to the right of ruby .
+mia put the bed below the cup .now the cup is above the bed .
+the basket is right of the bed .where is the bed ?the bed is to the left of the basket .
+the book is right of the key .the key is to the left of the book .
+the lamp is under the vase .the vase is on the lamp .
+the pen is inside the fridge .the fridge contains the pen .
+the chair is left of the coat .the coat is to the right of the chair .
+the sink is on the vase .the vase is under the sink .
+the jar contains the map .the map is inside the jar .
+anna put the chair below the hat .now the hat is above the chair .
+the bank is south of the park .so the park is to the north .
+the school is north of the field .the field is south of the school .
+the box is below the clock .the clock is above the box .
+the bowl is under the ball .the ball is on the bowl .
+the basket contains the card .the card is inside the basket .
+the table is above the shelf .where is the shelf ?the shelf is below the table .
+the ball is under the book .the book is on the ball .
+the window is left of the phone .so the phone is to the right .
+the school is north of the office .so the office is to the south .
+theo put the pen above the window .now the window is below the pen .
+we drove from the tower to the market .the market is north of the tower .the tower is south of the market .
+the hat is to the right of the chair .the chair is to the left of the hat .
+we drove from the market to the lake .the lake is south of the market .the market is north of the lake .
+the basket is right of the bowl .where is the bowl ?the bowl is to the left of the basket .
+the hospital is north of the store .so the store is to the south .
+the mirror is right of the pen .the pen is to the left of the mirror .
+the picture is above the window .the window is below the picture .
+the box contains the card .the card is inside the box .
+the phone is inside the box .what does the box contain ?the box contains the phone .
+yuki is left of jade .where is jade ?jade is to the right of yuki .
+yuki put the sofa below the basket .now the basket is above the sofa .
+the lake is south of the office .so the office is to the north .
+the lamp is to the right of the jar .the jar is to the left of the lamp .
+the box is below the bed .so the bed is above the box .
+the window is under the key .the key is on the window .
+theo put the card inside the cup .now the cup contains the card .
+lily put the bowl above the box .now the box is below the bowl .
+the phone is above the table .where is the table ?the table is below the phone .
+the rug is right of the mirror .where is the mirror ?the mirror is to the left of the rug .
+the drawer contains the cup .the cup is inside the drawer .
+the picture is to the right of the window .the window is to the left of the picture .
+the door is below the window .where is the window ?the window is above the door .
+the vase is below the shelf .the shelf is above the vase .
+the park is north of the tower .the tower is south of the park .
+the window is left of the table .the table is to the right of the window .
+the phone is not on the table .it is inside the suitcase .the suitcase contains the phone .
+the peach is inside the basket .the basket contains the peach .
+the sink is on the chair .the chair is under the sink .
+the bottle is right of the jar .so the jar is to the left .
+ben put the key below the vase .now the vase is above the key .
+the mirror is above the jar .where is the jar ?the jar is below the mirror .
+the sofa is to the left of the plate .the plate is to the right of the sofa .
+the vase is right of the picture .where is the picture ?the picture is to the left of the vase .
+the pen is to the right of the cup .the cup is to the left of the pen .
+the phone is to the left of the bed .the bed is to the right of the phone .
+jack put the chair below the pen .now the pen is above the chair .
+the coin is inside the basket .the basket contains the coin .
+the ball is below the bag .the bag is above the ball .
+lucy is left of ava .so ava is to the right .
+the book is left of the sofa .so the sofa is to the right .
+the map is inside the jar .the jar contains the map .
+the bowl contains the key .the key is inside the bowl .
+the bed is below the vase .so the vase is above the bed .
+the field is south of the bridge .the bridge is north of the field .
+rosa put the letter inside the bowl .now the bowl contains the letter .
+the phone is inside the box .the box contains the phone .
+the key is below the rug .where is the rug ?the rug is above the key .
+anna is right of mia .mia is to the left of anna .
+sam is left of max .max is to the right of sam .
+the bed is above the clock .so the clock is below the bed .
+the coat is right of the mirror .so the mirror is to the left .
+the sink is to the right of the shelf .the shelf is to the left of the sink .
+the banana is not on the table .it is inside the drawer .the drawer contains the banana .
+the school is north of the station .the station is south of the school .
+the mango is inside the drawer .what does the drawer contain ?the drawer contains the mango .
+the bowl is right of the bag .where is the bag ?the bag is to the left of the bowl .
+ravi put the shelf above the key .now the key is below the shelf .
+the banana is inside the fridge .the fridge contains the banana .
+the pear is not on the table .it is inside the jar .the jar contains the pear .
+lily is left of ruby .so ruby is to the right .
+the hat is right of the jar .so the jar is to the left .
+the bowl is below the box .the box is above the bowl .
+the letter is not on the table .it is inside the suitcase .the suitcase contains the letter .
+the bed is below the rug .the rug is above the bed .
+the door is right of the vase .so the vase is to the left .
+the rug is below the sink .the sink is above the rug .
+the card is inside the bottle .the bottle contains the card .
+the lamp is right of the sofa .the sofa is to the left of the lamp .
+the hat is above the jar .where is the jar ?the jar is below the hat .
+the key is to the left of the shelf .the shelf is to the right of the key .
+the vase is below the rug .so the rug is above the vase .
+the clock is above the rug .the rug is below the clock .
+lucy put the clock below the bed .now the bed is above the clock .
+the basket contains the banana .the banana is inside the basket .
+the sink is beside the key .the key is beside the sink .
+the closet contains the peach .the peach is inside the closet .
+the field is south of the school .the school is north of the field .
+iris put the shelf above the mirror .now the mirror is below the shelf .
+the clock is above the bottle .where is the bottle ?the bottle is below the clock .
+the mirror is to the left of the bag .the bag is to the right of the mirror .
+the pen is below the bowl .the bowl is above the pen .
+the rug is beside the sink .the sink is beside the rug .
+the vase is right of the jar .so the jar is to the left .
+the river is south of the beach .the beach is north of the river .
+mia sat beside the coat .the coat is beside mia .
+iris is to the left of owen .owen is to the right of iris .
+the shelf is on the ball .the ball is under the shelf .
+max is to the right of ruby .ruby is to the left of max .
+the peach is not on the table .it is inside the closet .the closet contains the peach .
+theo is left of lucy .lucy is to the right of theo .
+the peach is inside the cup .the cup contains the peach .
+ravi is to the right of yuki .yuki is to the left of ravi .
+the clock is left of the mirror .so the mirror is to the right .
+the vase is above the door .so the door is below the vase .
+the shelf is above the cup .the cup is below the shelf .
+ravi put the jar above the hat .now the hat is below the jar .
+the cup is to the right of the bag .the bag is to the left of the cup .
+ravi put the phone inside the jar .now the jar contains the phone .
+the peach is inside the drawer .the drawer contains the peach .
+the lamp is left of the hat .the hat is to the right of the lamp .
+the mirror is above the picture .the picture is below the mirror .
+the clock is below the chair .so the chair is above the clock .
+rosa put the shelf above the bag .now the bag is below the shelf .
+the window is below the shelf .where is the shelf ?the shelf is above the window .
+the coin is inside the bottle .what does the bottle contain ?the bottle contains the coin .
+the key is inside the drawer .the drawer contains the key .
+max put the cup below the window .now the window is above the cup .
+the ring is inside the suitcase .what does the suitcase contain ?the suitcase contains the ring .
+owen is left of ben .so ben is to the right .
+the window is to the right of the lamp .the lamp is to the left of the window .
+the banana is inside the drawer .the drawer contains the banana .
+the coat is below the clock .where is the clock ?the clock is above the coat .
+the shelf is below the clock .so the clock is above the shelf .
+the window is below the phone .the phone is above the window .
+the mango is inside the suitcase .the suitcase contains the mango .
+ava is left of rosa .so rosa is to the right .
+rosa is right of ruby .ruby is to the left of rosa .
+the ring is inside the closet .the closet contains the ring .
+the map is inside the basket .what does the basket contain ?the basket contains the map .
+jack is to the right of ava .ava is to the left of jack .
+the bowl is under the desk .the desk is on the bowl .
+the bank is north of the office .the office is south of the bank .
+kai is to the right of lily .lily is to the left of kai .
+the picture is beside the basket .the basket is beside the picture .
+the jar contains the coin .the coin is inside the jar .
+max is right of yuki .so yuki is to the left .
+the banana is not on the table .it is inside the box .the box contains the banana .
+ava put the table above the sofa .now the sofa is below the table .
+the vase is right of the cup .so the cup is to the left .
+the cabinet contains the sock .the sock is inside the cabinet .
+the bowl is to the right of the chair .the chair is to the left of the bowl .
+rosa is right of ivan .so ivan is to the left .
+the table is right of the cup .where is the cup ?the cup is to the left of the table .
+the phone is below the jar .so the jar is above the phone .
+the rug is below the bowl .so the bowl is above the rug .
+max is right of owen .where is owen ?owen is to the left of max .
+we drove from the store to the village .the village is south of the store .the store is north of the village .
+ruby is right of ravi .ravi is to the left of ruby .
+the basket is to the left of the bag .the bag is to the right of the basket .
+the table is to the left of the phone .the phone is to the right of the table .
+the tower is north of the station .the station is south of the tower .
+the coat is right of the cup .where is the cup ?the cup is to the left of the coat .
+the clock is below the coat .so the coat is above the clock .
+the picture is above the sink .where is the sink ?the sink is below the picture .
+the door is above the window .so the window is below the door .
+the letter is inside the bottle .the bottle contains the letter .
+rosa put the phone inside the box .now the box contains the phone .
+the book is above the mirror .the mirror is below the book .
+ava put the peach inside the closet .now the closet contains the peach .
+the key is to the right of the bowl .the bowl is to the left of the key .
+lily sat beside the rug .the rug is beside lily .
+the basket is below the bag .so the bag is above the basket .
+the lamp is to the right of the pen .the pen is to the left of the lamp .
+the sink is above the pen .the pen is below the sink .
+the sofa is below the plate .the plate is above the sofa .
+the phone is above the vase .so the vase is below the phone .
+the desk is to the left of the bag .the bag is to the right of the desk .
+the key is right of the table .so the table is to the left .
+ava put the mango inside the basket .now the basket contains the mango .
+the store is north of the hospital .the hospital is south of the store .
+iris put the pear inside the basket .now the basket contains the pear .
+the forest is south of the hospital .the hospital is north of the forest .
+jack sat beside the rug .the rug is beside jack .
+the rug is to the right of the book .the book is to the left of the rug .
+the window is left of the vase .the vase is to the right of the window .
+the basket is to the right of the lamp .the lamp is to the left of the basket .
+the bridge is north of the farm .the farm is south of the bridge .
+the lamp is to the left of the bowl .the bowl is to the right of the lamp .
+zoe put the key below the box .now the box is above the key .
+the store is south of the farm .so the farm is to the north .
+zoe sat beside the bowl .the bowl is beside zoe .
+the key is left of the rug .so the rug is to the right .
+jade sat beside the window .the window is beside jade .
+the cup contains the toy .the toy is inside the cup .
+anna is to the right of kai .kai is to the left of anna .
+the office is south of the bank .so the bank is to the north .
+lily is left of theo .so theo is to the right .
+the banana is not on the table .it is inside the closet .the closet contains the banana .
+ravi put the pear inside the suitcase .now the suitcase contains the pear .
+the picture is above the hat .where is the hat ?the hat is below the picture .
+the cup is below the coat .where is the coat ?the coat is above the cup .
+the pen is inside the jar .what does the jar contain ?the jar contains the pen .
+the desk is on the clock .the clock is under the desk .
+the bag is beside the bed .the bed is beside the bag .
+the peach is inside the box .what does the box contain ?the box contains the peach .
+kai put the apple inside the basket .now the basket contains the apple .
+the office is north of the bank .the bank is south of the office .
+the sink is left of the rug .the rug is to the right of the sink .
+the mirror is below the rug .the rug is above the mirror .
+the ticket is not on the table .it is inside the box .the box contains the ticket .
+hugo put the vase below the bowl .now the bowl is above the vase .
+the sofa is left of the bottle .the bottle is to the right of the sofa .
+the apple is inside the bowl .the bowl contains the apple .
+the vase is below the shelf .where is the shelf ?the shelf is above the vase .
+the vase is to the right of the book .the book is to the left of the vase .
+we drove from the lake to the store .the store is north of the lake .the lake is south of the store .
+ben put the peach inside the bottle .now the bottle contains the peach .
+ava is left of jade .jade is to the right of ava .
+owen sat beside the sink .the sink is beside owen .
+max put the cup above the rug .now the rug is below the cup .
+the tower is north of the office .the office is south of the tower .
+we drove from the field to the river .the river is south of the field .the field is north of the river .
+the cup is right of the shelf .the shelf is to the left of the cup .
+the map is not on the table .it is inside the bottle .the bottle contains the map .
+the vase is right of the shelf .where is the shelf ?the shelf is to the left of the vase .
+kai sat beside the table .the table is beside kai .
+the phone is not on the table .it is inside the cup .the cup contains the phone .
+the coat is to the left of the jar .the jar is to the right of the coat .
+the basket is below the phone .so the phone is above the basket .
+the pen is below the sofa .where is the sofa ?the sofa is above the pen .
+the chair is to the right of the clock .the clock is to the left of the chair .
+the box is beside the bed .the bed is beside the box .
+the sofa is right of the mirror .the mirror is to the left of the sofa .
+the school is south of the tower .so the tower is to the north .
+the ball is on the plate .the plate is under the ball .
+the chair is below the bowl .so the bowl is above the chair .
+the mirror is above the box .so the box is below the mirror .
+the clock is below the window .the window is above the clock .
+the apple is inside the closet .the closet contains the apple .
+the bag is below the sofa .where is the sofa ?the sofa is above the bag .
+the hat is to the left of the plate .the plate is to the right of the hat .
+the sink is right of the door .so the door is to the left .
+the sofa is above the bottle .the bottle is below the sofa .
+the peach is inside the cabinet .what does the cabinet contain ?the cabinet contains the peach .
+the cup is not on the table .it is inside the drawer .the drawer contains the cup .
+the village is north of the office .so the office is to the south .
+jack put the hat above the shelf .now the shelf is below the hat .
+the card is inside the basket .what does the basket contain ?the basket contains the card .
+the pen is right of the vase .the vase is to the left of the pen .
+the fridge contains the ticket .the ticket is inside the fridge .
+the pen is beside the bag .the bag is beside the pen .
+iris is right of lucy .so lucy is to the left .
+the picture is to the left of the cup .the cup is to the right of the picture .
+the coat is to the left of the cup .the cup is to the right of the coat .
+the plate is to the left of the bowl .the bowl is to the right of the plate .
+the key is above the sofa .where is the sofa ?the sofa is below the key .
+the cup is above the picture .the picture is below the cup .
+the sink is above the key .where is the key ?the key is below the sink .
+the pen is above the plate .where is the plate ?the plate is below the pen .
+max put the card inside the closet .now the closet contains the card .
+the coat is left of the rug .so the rug is to the right .
+the sofa is above the vase .so the vase is below the sofa .
+the basket is left of the bowl .so the bowl is to the right .
+the ball is beside the door .the door is beside the ball .
+the pear is inside the jar .what does the jar contain ?the jar contains the pear .
+jade is left of sam .so sam is to the right .
+anna sat beside the rug .the rug is beside anna .
+ruby put the coin inside the box .now the box contains the coin .
+the clock is below the book .the book is above the clock .
+the drawer contains the pear .the pear is inside the drawer .
+the table is below the rug .so the rug is above the table .
+the jar is right of the picture .where is the picture ?the picture is to the left of the jar .
+theo put the sofa below the sink .now the sink is above the sofa .
+the bottle is below the clock .the clock is above the bottle .
+the map is not on the table .it is inside the drawer .the drawer contains the map .
+the bottle contains the ring .the ring is inside the bottle .
+owen put the basket above the bag .now the bag is below the basket .
+the coat is below the bottle .the bottle is above the coat .
+the door is below the bottle .so the bottle is above the door .
+the sofa is to the right of the jar .the jar is to the left of the sofa .
+the bag is above the table .so the table is below the bag .
+the bowl is below the jar .the jar is above the bowl .
+the cup is inside the drawer .the drawer contains the cup .
+anna put the picture below the box .now the box is above the picture .
+the lamp is left of the shelf .the shelf is to the right of the lamp .
+the mirror is to the right of the door .the door is to the left of the mirror .
+the plate is to the left of the sink .the sink is to the right of the plate .
+the plate is below the basket .so the basket is above the plate .
+iris put the coat above the picture .now the picture is below the coat .
+the fridge contains the toy .the toy is inside the fridge .
+the bottle contains the apple .the apple is inside the bottle .
+the plate is to the left of the vase .the vase is to the right of the plate .
+the sink is to the left of the bag .the bag is to the right of the sink .
+ravi sat beside the table .the table is beside ravi .
+the pen is above the bag .the bag is below the pen .
+the bag is to the right of the desk .the desk is to the left of the bag .
+the chair is under the sofa .the sofa is on the chair .
+the hat is right of the coat .where is the coat ?the coat is to the left of the hat .
+the key is left of the table .the table is to the right of the key .
+the picture is to the left of the mirror .the mirror is to the right of the picture .
+jade is left of lily .where is lily ?lily is to the right of jade .
+the pear is not on the table .it is inside the cup .the cup contains the pear .
+ivan is right of owen .so owen is to the left .
+the clock is above the jar .the jar is below the clock .
+the coat is right of the sofa .where is the sofa ?the sofa is to the left of the coat .
+zoe put the door below the cup .now the cup is above the door .
+the window is above the mirror .the mirror is below the window .
+the village is south of the farm .so the farm is to the north .
+the ball is not on the table .it is inside the fridge .the fridge contains the ball .
+the desk is left of the cup .the cup is to the right of the desk .
+hugo put the ball inside the fridge .now the fridge contains the ball .
+the cup is to the left of the basket .the basket is to the right of the cup .
+ivan is left of anna .anna is to the right of ivan .
+lily is to the right of anna .anna is to the left of lily .
+the door is right of the vase .the vase is to the left of the door .
+jade is right of jack .jack is to the left of jade .
+the desk is beside the ball .the ball is beside the desk .
+iris is right of kai .kai is to the left of iris .
+the cup is to the right of the hat .the hat is to the left of the cup .
+the coat is above the door .so the door is below the coat .
+ava sat beside the clock .the clock is beside ava .
+the sofa is left of the sink .where is the sink ?the sink is to the right of the sofa .
+the pen is left of the plate .where is the plate ?the plate is to the right of the pen .
+the door is below the coat .where is the coat ?the coat is above the door .
+the coat is right of the pen .so the pen is to the left .
+the bag is below the jar .the jar is above the bag .
+the letter is inside the bottle .what does the bottle contain ?the bottle contains the letter .
+the bowl contains the peach .the peach is inside the bowl .
+lucy is left of ruby .where is ruby ?ruby is to the right of lucy .
+the cup is inside the fridge .the fridge contains the cup .
+anna put the basket below the sink .now the sink is above the basket .
+the bed is to the left of the door .the door is to the right of the bed .
+the basket is left of the chair .the chair is to the right of the basket .
+the jar contains the ticket .the ticket is inside the jar .
+the phone is inside the drawer .the drawer contains the phone .
+the cup is right of the door .the door is to the left of the cup .
+the plate is right of the desk .where is the desk ?the desk is to the left of the plate .
+lucy is left of anna .so anna is to the right .
+the coin is inside the drawer .the drawer contains the coin .
+the sofa is to the right of the basket .the basket is to the left of the sofa .
+sam put the door above the rug .now the rug is below the door .
+the window is right of the rug .where is the rug ?the rug is to the left of the window .
+the vase is above the hat .where is the hat ?the hat is below the vase .
+the bottle contains the sock .the sock is inside the bottle .
+lucy put the basket below the bag .now the bag is above the basket .
+the plate is above the rug .the rug is below the plate .
+the shelf is above the picture .where is the picture ?the picture is below the shelf .
+the office is south of the beach .so the beach is to the north .
+the pen is above the basket .where is the basket ?the basket is below the pen .
+the jar contains the banana .the banana is inside the jar .
+we drove from the beach to the market .the market is north of the beach .the beach is south of the market .
+ruby is right of ben .ben is to the left of ruby .
+the farm is north of the office .so the office is to the south .
+the ring is inside the bottle .what does the bottle contain ?the bottle contains the ring .
+the bed is above the clock .the clock is below the bed .
+the box contains the ball .the ball is inside the box .
+the pen is to the left of the mirror .the mirror is to the right of the pen .
+the mango is inside the bottle .what does the bottle contain ?the bottle contains the mango .
+the window is left of the pen .the pen is to the right of the window .
+the desk is left of the bed .where is the bed ?the bed is to the right of the desk .
+the clock is above the cup .the cup is below the clock .
+the bottle is right of the mirror .so the mirror is to the left .
+the bed is on the window .the window is under the bed .
+the basket is right of the mirror .where is the mirror ?the mirror is to the left of the basket .
+the village is south of the field .so the field is to the north .
+the coin is inside the suitcase .what does the suitcase contain ?the suitcase contains the coin .
+the store is south of the forest .the forest is north of the store .
+the jar is on the window .the window is under the jar .
+the mirror is above the vase .where is the vase ?the vase is below the mirror .
+the ball is below the book .the book is above the ball .
+the pen is below the shelf .so the shelf is above the pen .
+ben put the bed above the cup .now the cup is below the bed .
+the ring is inside the fridge .what does the fridge contain ?the fridge contains the ring .
+the clock is below the bottle .where is the bottle ?the bottle is above the clock .
+the apple is inside the drawer .the drawer contains the apple .
+the mirror is above the chair .so the chair is below the mirror .
+the sofa is below the bottle .the bottle is above the sofa .
+the map is inside the box .the box contains the map .
+the desk is beside the jar .the jar is beside the desk .
+the letter is inside the closet .what does the closet contain ?the closet contains the letter .
+jade is to the right of ruby .ruby is to the left of jade .
+the chair is below the table .the table is above the chair .
+anna put the bag below the plate .now the plate is above the bag .
+the sink is above the bottle .the bottle is below the sink .
+the map is inside the suitcase .the suitcase contains the map .
+mia put the map inside the suitcase .now the suitcase contains the map .
+the cabinet contains the ticket .the ticket is inside the cabinet .
+the pear is inside the fridge .the fridge contains the pear .
+the cup is inside the jar .what does the jar contain ?the jar contains the cup .
+the hat is under the rug .the rug is on the hat .
+theo put the bottle below the box .now the box is above the bottle .
+the sink is below the clock .so the clock is above the sink .
+the window is above the bed .the bed is below the window .
+the suitcase contains the pear .the pear is inside the suitcase .
+the peach is not on the table .it is inside the box .the box contains the peach .
+theo is left of yuki .where is yuki ?yuki is to the right of theo .
+the chair is to the left of the sofa .the sofa is to the right of the chair .
+the vase is below the bed .the bed is above the vase .
+the tower is north of the station .so the station is to the south .
+ben is right of max .where is max ?max is to the left of ben .
+iris is left of lucy .so lucy is to the right .
+mia is to the right of ivan .ivan is to the left of mia .
+the mirror is on the jar .the jar is under the mirror .
+the card is not on the table .it is inside the bottle .the bottle contains the card .
+the card is not on the table .it is inside the bowl .the bowl contains the card .
+the cup is beside the coat .the coat is beside the cup .
+the sink is below the bottle .where is the bottle ?the bottle is above the sink .
+the sock is not on the table .it is inside the suitcase .the suitcase contains the sock .
+the rug is below the pen .where is the pen ?the pen is above the rug .
+the ticket is inside the cup .what does the cup contain ?the cup contains the ticket .
+the sock is inside the cabinet .what does the cabinet contain ?the cabinet contains the sock .
+the key is to the left of the bowl .the bowl is to the right of the key .
+the sock is not on the table .it is inside the box .the box contains the sock .
+the coat is below the book .the book is above the coat .
+the ball is not on the table .it is inside the jar .the jar contains the ball .
+the apple is inside the jar .the jar contains the apple .
+the mirror is to the left of the key .the key is to the right of the mirror .
+the key is inside the suitcase .what does the suitcase contain ?the suitcase contains the key .
+lily put the map inside the bowl .now the bowl contains the map .
+the plate is above the bowl .the bowl is below the plate .
+the phone is below the bed .where is the bed ?the bed is above the phone .
+the sink is right of the mirror .where is the mirror ?the mirror is to the left of the sink .
+yuki put the phone above the window .now the window is below the phone .
+the hospital is north of the bridge .so the bridge is to the south .
+the lake is north of the store .so the store is to the south .
+the phone is left of the plate .so the plate is to the right .
+ivan put the key inside the fridge .now the fridge contains the key .
+lily is left of kai .kai is to the right of lily .
+hugo sat beside the vase .the vase is beside hugo .
+we drove from the bank to the office .the office is south of the bank .the bank is north of the office .
+the cup is above the mirror .where is the mirror ?the mirror is below the cup .
+the letter is inside the fridge .the fridge contains the letter .
+the box is below the door .the door is above the box .
+the cup is above the clock .so the clock is below the cup .
+the hat is to the left of the desk .the desk is to the right of the hat .
+the shelf is to the right of the hat .the hat is to the left of the shelf .
+the shelf is below the clock .the clock is above the shelf .
+jack is to the left of lucy .lucy is to the right of jack .
+ivan is to the right of hugo .hugo is to the left of ivan .
+the jar is to the left of the pen .the pen is to the right of the jar .
+the window is to the right of the book .the book is to the left of the window .
+the bag is to the right of the mirror .the mirror is to the left of the bag .
+the desk is beside the table .the table is beside the desk .
+the river is north of the park .so the park is to the south .
+the basket is below the shelf .the shelf is above the basket .
+hugo put the key above the rug .now the rug is below the key .
+theo put the hat below the bag .now the bag is above the hat .
+lily is to the right of jack .jack is to the left of lily .
+yuki put the apple inside the basket .now the basket contains the apple .
+the forest is south of the park .so the park is to the north .
+anna put the window below the coat .now the coat is above the window .
+lily sat beside the lamp .the lamp is beside lily .
+the toy is inside the drawer .the drawer contains the toy .
+the bowl is to the left of the phone .the phone is to the right of the bowl .
+the window is beside the clock .the clock is beside the window .
+the hat is right of the sofa .where is the sofa ?the sofa is to the left of the hat .
+the mirror is above the plate .so the plate is below the mirror .
+the basket is below the sink .where is the sink ?the sink is above the basket .
+the cup is under the bowl .the bowl is on the cup .
+the bottle is below the bowl .the bowl is above the bottle .
+the key is below the jar .where is the jar ?the jar is above the key .
+jack put the sofa below the box .now the box is above the sofa .
+the hat is right of the bowl .the bowl is to the left of the hat .
+the window is below the door .so the door is above the window .
+the lake is north of the river .the river is south of the lake .
+the sink is above the clock .the clock is below the sink .
+the book is left of the phone .so the phone is to the right .
+the basket contains the phone .the phone is inside the basket .
+the plate is to the right of the book .the book is to the left of the plate .
+the window is above the plate .so the plate is below the window .
+the ball is beside the chair .the chair is beside the ball .
+the bottle is below the ball .the ball is above the bottle .
+the table is to the left of the bag .the bag is to the right of the table .
+the hospital is south of the station .the station is north of the hospital .
+the letter is inside the cabinet .what does the cabinet contain ?the cabinet contains the letter .
+the sofa is right of the jar .the jar is to the left of the sofa .
+the key is to the left of the bottle .the bottle is to the right of the key .
+the door is left of the bag .the bag is to the right of the door .
+the book is to the left of the key .the key is to the right of the book .
+the ring is inside the cabinet .what does the cabinet contain ?the cabinet contains the ring .
+the desk is right of the bowl .so the bowl is to the left .
+the chair is beside the picture .the picture is beside the chair .
+the picture is on the ball .the ball is under the picture .
+jack is right of ben .where is ben ?ben is to the left of jack .
+the picture is below the vase .so the vase is above the picture .
+the sofa is to the right of the cup .the cup is to the left of the sofa .
+the bottle is above the bowl .where is the bowl ?the bowl is below the bottle .
+jack is right of hugo .so hugo is to the left .
+the toy is inside the cabinet .what does the cabinet contain ?the cabinet contains the toy .
+the coat is left of the window .so the window is to the right .
+the closet contains the letter .the letter is inside the closet .
+zoe put the door below the clock .now the clock is above the door .
+the bottle is left of the hat .where is the hat ?the hat is to the right of the bottle .
+the bank is south of the forest .the forest is north of the bank .
+max is to the left of hugo .hugo is to the right of max .
+the map is not on the table .it is inside the bowl .the bowl contains the map .
+lucy put the sofa above the sink .now the sink is below the sofa .
+the ball is inside the basket .the basket contains the ball .
+ben is right of mia .where is mia ?mia is to the left of ben .
+the ticket is inside the box .the box contains the ticket .
+ravi put the ring inside the bowl .now the bowl contains the ring .
+ruby sat beside the lamp .the lamp is beside ruby .
+lily put the bed above the chair .now the chair is below the bed .
+owen put the ball inside the cup .now the cup contains the ball .
+jack put the shelf above the book .now the book is below the shelf .
+the map is not on the table .it is inside the cabinet .the cabinet contains the map .
+the park is south of the hospital .so the hospital is to the north .
+the basket contains the pear .the pear is inside the basket .
+the store is north of the village .the village is south of the store .
+the apple is inside the cabinet .the cabinet contains the apple .
+the sofa is right of the chair .where is the chair ?the chair is to the left of the sofa .
+the mango is not on the table .it is inside the closet .the closet contains the mango .
+the shelf is above the rug .the rug is below the shelf .
+max put the key inside the cup .now the cup contains the key .
+the jar contains the pear .the pear is inside the jar .
+the cup is inside the suitcase .the suitcase contains the cup .
+the basket contains the ring .the ring is inside the basket .
+the bag is beside the clock .the clock is beside the bag .
+the bag is right of the sink .so the sink is to the left .
+the vase is above the clock .the clock is below the vase .
+the cup is below the picture .where is the picture ?the picture is above the cup .
+the desk is right of the sink .where is the sink ?the sink is to the left of the desk .
+we drove from the office to the tower .the tower is north of the office .the office is south of the tower .
+the key is beside the table .the table is beside the key .
+yuki put the sink above the picture .now the picture is below the sink .
+the mango is inside the closet .what does the closet contain ?the closet contains the mango .
+the bed is right of the picture .where is the picture ?the picture is to the left of the bed .
+ava put the cup inside the suitcase .now the suitcase contains the cup .
+ivan is left of jade .jade is to the right of ivan .
+the lake is south of the school .the school is north of the lake .
+the jar contains the apple .the apple is inside the jar .
+ravi put the card inside the jar .now the jar contains the card .
+the phone is above the mirror .the mirror is below the phone .
+the hospital is north of the bank .so the bank is to the south .
+the bag is above the cup .the cup is below the bag .
+the plate is left of the bottle .so the bottle is to the right .
+the phone is left of the basket .so the basket is to the right .
+the table is below the door .so the door is above the table .
+the vase is below the bottle .where is the bottle ?the bottle is above the vase .
+the jar is right of the cup .the cup is to the left of the jar .
+the key is inside the closet .the closet contains the key .
+the toy is not on the table .it is inside the cabinet .the cabinet contains the toy .
+we drove from the school to the lake .the lake is north of the school .the school is south of the lake .
+the box is beside the rug .the rug is beside the box .
+yuki sat beside the desk .the desk is beside yuki .
+the cup is right of the sofa .where is the sofa ?the sofa is to the left of the cup .
+the basket is above the door .the door is below the basket .
+the bowl is left of the sink .so the sink is to the right .
+the shelf is right of the picture .where is the picture ?the picture is to the left of the shelf .
+the desk is beside the cup .the cup is beside the desk .
+lucy is right of zoe .so zoe is to the left .
+the apple is not on the table .it is inside the bottle .the bottle contains the apple .
+lucy is right of ben .ben is to the left of lucy .
+anna sat beside the chair .the chair is beside anna .
+max put the toy inside the drawer .now the drawer contains the toy .
+the box is under the bottle .the bottle is on the box .
+lucy sat beside the pen .the pen is beside lucy .
+the picture is to the right of the shelf .the shelf is to the left of the picture .
+the card is inside the suitcase .what does the suitcase contain ?the suitcase contains the card .
+the lamp is right of the table .where is the table ?the table is to the left of the lamp .
+the picture is above the clock .so the clock is below the picture .
+the phone is left of the sink .the sink is to the right of the phone .
+the bottle is right of the picture .so the picture is to the left .
+the mirror is to the right of the chair .the chair is to the left of the mirror .
+we drove from the market to the river .the river is south of the market .the market is north of the river .
+the bottle contains the coin .the coin is inside the bottle .
+the tower is north of the village .the village is south of the tower .
+the table is right of the vase .the vase is to the left of the table .
+sam is left of kai .kai is to the right of sam .
+the table is on the sink .the sink is under the table .
+the sofa is above the hat .so the hat is below the sofa .
+the shelf is right of the clock .so the clock is to the left .
+the book is under the bed .the bed is on the book .
+the cup is under the mirror .the mirror is on the cup .
+the rug is left of the basket .so the basket is to the right .
+the farm is south of the market .the market is north of the farm .
+ravi sat beside the window .the window is beside ravi .
+the coin is inside the bowl .the bowl contains the coin .
+zoe sat beside the picture .the picture is beside zoe .
+ben put the jar above the cup .now the cup is below the jar .
+the field is south of the station .the station is north of the field .
+the suitcase contains the apple .the apple is inside the suitcase .
+zoe put the book below the jar .now the jar is above the book .
+lily put the phone inside the cup .now the cup contains the phone .
+rosa is left of iris .iris is to the right of rosa .
+the door is above the hat .the hat is below the door .
+the letter is inside the jar .what does the jar contain ?the jar contains the letter .
+rosa is to the left of ruby .ruby is to the right of rosa .
+rosa put the table above the bowl .now the bowl is below the table .
+the bed is right of the desk .the desk is to the left of the bed .
+ava put the bed above the phone .now the phone is below the bed .
+the ticket is inside the bowl .the bowl contains the ticket .
+the bed is to the right of the clock .the clock is to the left of the bed .
+lucy put the jar below the plate .now the plate is above the jar .
+the chair is to the left of the picture .the picture is to the right of the chair .
+the desk is right of the lamp .so the lamp is to the left .
+the mango is not on the table .it is inside the basket .the basket contains the mango .
+rosa put the window below the basket .now the basket is above the window .
+the hat is above the plate .so the plate is below the hat .
+the sink is under the picture .the picture is on the sink .
+the coin is not on the table .it is inside the suitcase .the suitcase contains the coin .
+ava is to the right of zoe .zoe is to the left of ava .
+the letter is inside the cabinet .the cabinet contains the letter .
+the phone is not on the table .it is inside the closet .the closet contains the phone .
+the plate is below the door .the door is above the plate .
+the sofa is below the vase .the vase is above the sofa .
+the hat is to the left of the sink .the sink is to the right of the hat .
+the box is below the vase .the vase is above the box .
+zoe put the key inside the closet .now the closet contains the key .
+the store is north of the station .so the station is to the south .
+the desk is to the left of the pen .the pen is to the right of the desk .
+the box contains the pen .the pen is inside the box .
+the shelf is left of the bowl .where is the bowl ?the bowl is to the right of the shelf .
+the bottle contains the pen .the pen is inside the bottle .
+the picture is above the plate .the plate is below the picture .
+ben put the mango inside the basket .now the basket contains the mango .
+the station is north of the hospital .the hospital is south of the station .
+iris is right of zoe .zoe is to the left of iris .
+the shelf is below the bowl .where is the bowl ?the bowl is above the shelf .
+the bed is beside the pen .the pen is beside the bed .
+the cup is inside the fridge .what does the fridge contain ?the fridge contains the cup .
+the phone is on the cup .the cup is under the phone .
+rosa put the coat below the vase .now the vase is above the coat .
+the window is below the door .where is the door ?the door is above the window .
+the window is right of the basket .so the basket is to the left .
+the cup is on the table .the table is under the cup .
+the river is south of the lake .the lake is north of the river .
+the pear is inside the closet .what does the closet contain ?the closet contains the pear .
+the rug is under the cup .the cup is on the rug .
+the phone is inside the basket .what does the basket contain ?the basket contains the phone .
+the jar is below the bed .so the bed is above the jar .
+the jar is to the left of the key .the key is to the right of the jar .
+the bag is above the basket .the basket is below the bag .
+the sink is right of the clock .where is the clock ?the clock is to the left of the sink .
+the mirror is beside the pen .the pen is beside the mirror .
+the basket is right of the hat .the hat is to the left of the basket .
+the lake is north of the school .so the school is to the south .
+the vase is to the right of the bed .the bed is to the left of the vase .
+ava is right of hugo .where is hugo ?hugo is to the left of ava .
+the hospital is south of the store .so the store is to the north .
+the bag is beside the sofa .the sofa is beside the bag .
+the rug is on the basket .the basket is under the rug .
+the plate is under the rug .the rug is on the plate .
+the phone is above the clock .the clock is below the phone .
+the letter is inside the drawer .the drawer contains the letter .
+the sink is right of the basket .where is the basket ?the basket is to the left of the sink .
+the door is to the left of the bag .the bag is to the right of the door .
+the phone is to the right of the picture .the picture is to the left of the phone .
+the vase is left of the cup .the cup is to the right of the vase .
+the sofa is to the left of the mirror .the mirror is to the right of the sofa .
+the map is inside the closet .the closet contains the map .
+mia put the coin inside the closet .now the closet contains the coin .
+the door is above the jar .so the jar is below the door .
+anna put the book below the mirror .now the mirror is above the book .
+the station is south of the park .so the park is to the north .
+the store is south of the station .the station is north of the store .
+the bed is left of the book .where is the book ?the book is to the right of the bed .
+iris sat beside the bottle .the bottle is beside iris .
+the bottle is above the table .so the table is below the bottle .
+the key is inside the bowl .the bowl contains the key .
+the sink is above the shelf .the shelf is below the sink .
+the vase is to the right of the mirror .the mirror is to the left of the vase .
+the chair is above the hat .the hat is below the chair .
+the cabinet contains the letter .the letter is inside the cabinet .
+the bank is north of the beach .so the beach is to the south .
+the coat is right of the pen .where is the pen ?the pen is to the left of the coat .
+mia is right of hugo .hugo is to the left of mia .
+the mirror is above the shelf .the shelf is below the mirror .
+iris sat beside the box .the box is beside iris .
+the lamp is beside the door .the door is beside the lamp .
+the bag is beside the lamp .the lamp is beside the bag .
+yuki put the ball inside the bottle .now the bottle contains the ball .
+the sink is above the bed .so the bed is below the sink .
+kai is left of sam .sam is to the right of kai .
+the bed is on the jar .the jar is under the bed .
+the bag is below the bowl .so the bowl is above the bag .
+the pen is under the sofa .the sofa is on the pen .
+the bowl is below the coat .so the coat is above the bowl .
+the clock is below the bowl .the bowl is above the clock .
+the rug is above the cup .so the cup is below the rug .
+the office is north of the hospital .so the hospital is to the south .
+the phone is not on the table .it is inside the bottle .the bottle contains the phone .
+the pear is inside the suitcase .the suitcase contains the pear .
+yuki put the ring inside the cup .now the cup contains the ring .
+max put the key above the bed .now the bed is below the key .
+the ball is inside the jar .what does the jar contain ?the jar contains the ball .
+sam put the chair below the sofa .now the sofa is above the chair .
+the chair is under the plate .the plate is on the chair .
+the bottle contains the letter .the letter is inside the bottle .
+ivan put the toy inside the bottle .now the bottle contains the toy .
+the mirror is above the bowl .the bowl is below the mirror .
+the door is below the bag .where is the bag ?the bag is above the door .
+the drawer contains the key .the key is inside the drawer .
+the hospital is south of the school .the school is north of the hospital .
+the box contains the map .the map is inside the box .
+yuki put the letter inside the suitcase .now the suitcase contains the letter .
+anna is right of sam .sam is to the left of anna .
+the bottle is below the window .where is the window ?the window is above the bottle .
+the bag is above the box .the box is below the bag .
+ruby sat beside the phone .the phone is beside ruby .
+the pen is below the rug .the rug is above the pen .
+the suitcase contains the card .the card is inside the suitcase .
+the bottle is left of the phone .the phone is to the right of the bottle .
+the bowl contains the cup .the cup is inside the bowl .
+the toy is inside the fridge .the fridge contains the toy .
+yuki sat beside the mirror .the mirror is beside yuki .
+the beach is south of the hospital .so the hospital is to the north .
+the rug is to the left of the desk .the desk is to the right of the rug .
+the bed is to the left of the window .the window is to the right of the bed .
+the sofa is to the left of the clock .the clock is to the right of the sofa .
+the sink is right of the sofa .the sofa is to the left of the sink .
+ruby is left of yuki .so yuki is to the right .
+the bed is to the left of the vase .the vase is to the right of the bed .
+the pen is not on the table .it is inside the drawer .the drawer contains the pen .
+the bag is above the jar .the jar is below the bag .
+the door is to the right of the table .the table is to the left of the door .
+the drawer contains the banana .the banana is inside the drawer .
+the sofa is below the phone .where is the phone ?the phone is above the sofa .
+the book is below the key .where is the key ?the key is above the book .
+the picture is right of the jar .the jar is to the left of the picture .
+sam put the phone below the bag .now the bag is above the phone .
+the bed is above the vase .the vase is below the bed .
+hugo put the cup above the box .now the box is below the cup .
+the sink is right of the picture .where is the picture ?the picture is to the left of the sink .
+theo is to the right of ben .ben is to the left of theo .
+the sofa is left of the vase .so the vase is to the right .
+the phone is inside the cabinet .what does the cabinet contain ?the cabinet contains the phone .
+the basket is below the phone .the phone is above the basket .
+ben is right of kai .kai is to the left of ben .
+the basket is to the left of the hat .the hat is to the right of the basket .
+the hospital is south of the station .so the station is to the north .
+the pen is above the key .the key is below the pen .
+the key is inside the bottle .what does the bottle contain ?the bottle contains the key .
+the hat is right of the vase .the vase is to the left of the hat .
+kai put the pen inside the box .now the box contains the pen .
+the book is left of the mirror .the mirror is to the right of the book .
+jack put the key inside the cup .now the cup contains the key .
+the door is below the basket .where is the basket ?the basket is above the door .
+ivan is right of ravi .so ravi is to the left .
+the toy is inside the suitcase .what does the suitcase contain ?the suitcase contains the toy .
+the peach is inside the bowl .what does the bowl contain ?the bowl contains the peach .
+lily put the toy inside the cup .now the cup contains the toy .
+the clock is above the picture .where is the picture ?the picture is below the clock .
+the farm is south of the office .the office is north of the farm .
+lucy is left of sam .so sam is to the right .
+the door is below the bed .the bed is above the door .
+the phone is inside the drawer .what does the drawer contain ?the drawer contains the phone .
+the table is to the left of the mirror .the mirror is to the right of the table .
+the bag is below the key .the key is above the bag .
+iris put the phone inside the bottle .now the bottle contains the phone .
+the key is below the phone .so the phone is above the key .
+the lamp is to the right of the rug .the rug is to the left of the lamp .
+ravi put the sink below the bed .now the bed is above the sink .
+the toy is inside the basket .the basket contains the toy .
+jade put the bowl above the pen .now the pen is below the bowl .
+ivan put the banana inside the cabinet .now the cabinet contains the banana .
+the picture is below the rug .where is the rug ?the rug is above the picture .
+iris is to the left of ivan .ivan is to the right of iris .
+the coat is to the right of the pen .the pen is to the left of the coat .
+the bed is right of the bag .so the bag is to the left .
+the bed is above the vase .where is the vase ?the vase is below the bed .
+the chair is below the sofa .the sofa is above the chair .
+the coin is not on the table .it is inside the drawer .the drawer contains the coin .
+the pen is left of the book .where is the book ?the book is to the right of the pen .
+ruby is left of anna .so anna is to the right .
+the key is below the bag .the bag is above the key .
+the door is above the bed .the bed is below the door .
+iris put the pear inside the closet .now the closet contains the pear .
+the basket is left of the book .so the book is to the right .
+the sink is above the chair .so the chair is below the sink .
+the pen is to the left of the bed .the bed is to the right of the pen .
+the farm is south of the tower .so the tower is to the north .
+rosa sat beside the coat .the coat is beside rosa .
+the peach is inside the cup .what does the cup contain ?the cup contains the peach .
+the closet contains the banana .the banana is inside the closet .
+iris put the table above the shelf .now the shelf is below the table .
+the fridge contains the banana .the banana is inside the fridge .
+the bag is to the right of the book .the book is to the left of the bag .
+jade put the ticket inside the cup .now the cup contains the ticket .
+sam put the key inside the closet .now the closet contains the key .
+the letter is not on the table .it is inside the box .the box contains the letter .
+lucy is left of ben .ben is to the right of lucy .
+we drove from the office to the bank .the bank is south of the office .the office is north of the bank .
+we drove from the market to the beach .the beach is north of the market .the market is south of the beach .
+ben sat beside the basket .the basket is beside ben .
+the key is left of the plate .the plate is to the right of the key .
+the plate is left of the cup .the cup is to the right of the plate .
+the bed is above the sink .the sink is below the bed .
+the plate is below the bag .where is the bag ?the bag is above the plate .
+the box is above the sink .so the sink is below the box .
+the picture is below the plate .where is the plate ?the plate is above the picture .
+the bowl is above the jar .the jar is below the bowl .
+yuki put the chair below the box .now the box is above the chair .
+kai put the coin inside the cup .now the cup contains the coin .
+the card is inside the basket .the basket contains the card .
+the sink is above the jar .where is the jar ?the jar is below the sink .
+the chair is above the rug .so the rug is below the chair .
+the card is inside the fridge .what does the fridge contain ?the fridge contains the card .
+the vase is above the shelf .the shelf is below the vase .
+owen put the phone below the chair .now the chair is above the phone .
+zoe put the jar below the plate .now the plate is above the jar .
+the cup is inside the suitcase .what does the suitcase contain ?the suitcase contains the cup .
+anna is to the left of iris .iris is to the right of anna .
+the chair is below the key .where is the key ?the key is above the chair .
+iris is to the left of hugo .hugo is to the right of iris .
+the map is inside the cabinet .what does the cabinet contain ?the cabinet contains the map .
+the window is beside the rug .the rug is beside the window .
+the mirror is below the hat .where is the hat ?the hat is above the mirror .
+the chair is below the shelf .the shelf is above the chair .
+the hat is above the basket .so the basket is below the hat .
+iris put the window above the sofa .now the sofa is below the window .
+the coat is below the phone .so the phone is above the coat .
+the sofa is above the window .the window is below the sofa .
+the sink is to the right of the bag .the bag is to the left of the sink .
+the forest is north of the river .the river is south of the forest .
+the shelf is to the right of the lamp .the lamp is to the left of the shelf .
+the suitcase contains the mango .the mango is inside the suitcase .
+max sat beside the jar .the jar is beside max .
+lily put the toy inside the bowl .now the bowl contains the toy .
+the basket is left of the desk .so the desk is to the right .
+the cup is to the right of the door .the door is to the left of the cup .
+the rug is above the sofa .so the sofa is below the rug .
+kai put the mango inside the drawer .now the drawer contains the mango .
+ivan is left of ravi .so ravi is to the right .
+the plate is on the coat .the coat is under the plate .
+the plate is left of the desk .the desk is to the right of the plate .
+the mirror is left of the bag .so the bag is to the right .
+the bag is right of the cup .so the cup is to the left .
+the rug is beside the ball .the ball is beside the rug .
+the bag is to the left of the sofa .the sofa is to the right of the bag .
+the cup is not on the table .it is inside the basket .the basket contains the cup .
+the shelf is above the clock .where is the clock ?the clock is below the shelf .
+the key is not on the table .it is inside the basket .the basket contains the key .
+we drove from the station to the bridge .the bridge is north of the station .the station is south of the bridge .
+the hat is to the right of the bag .the bag is to the left of the hat .
+the coat is above the vase .the vase is below the coat .
+the card is inside the cup .the cup contains the card .
+kai put the shelf above the key .now the key is below the shelf .
+the bowl is beside the coat .the coat is beside the bowl .
+zoe sat beside the cup .the cup is beside zoe .
+the river is north of the store .so the store is to the south .
+the chair is to the right of the table .the table is to the left of the chair .
+ben put the box below the cup .now the cup is above the box .
+the phone is to the left of the door .the door is to the right of the phone .
+iris is to the right of anna .anna is to the left of iris .
+the bowl is to the right of the table .the table is to the left of the bowl .
+the door is above the box .so the box is below the door .
+sam put the bag below the hat .now the hat is above the bag .
+ava is left of sam .so sam is to the right .
+mia is to the left of max .max is to the right of mia .
+the apple is inside the basket .what does the basket contain ?the basket contains the apple .
+the peach is not on the table .it is inside the drawer .the drawer contains the peach .
+the window is right of the phone .so the phone is to the left .
+the office is south of the lake .the lake is north of the office .
+sam sat beside the ball .the ball is beside sam .
+sam is left of iris .where is iris ?iris is to the right of sam .
+rosa is to the left of lucy .lucy is to the right of rosa .
+the sofa is above the mirror .the mirror is below the sofa .
+the sofa is below the coat .where is the coat ?the coat is above the sofa .
+the ring is inside the box .what does the box contain ?the box contains the ring .
+the bowl is to the left of the rug .the rug is to the right of the bowl .
+the station is north of the market .the market is south of the station .
+the picture is on the window .the window is under the picture .
+the chair is below the clock .where is the clock ?the clock is above the chair .
+the drawer contains the coin .the coin is inside the drawer .
+we drove from the river to the office .the office is south of the river .the river is north of the office .
+the pen is above the cup .where is the cup ?the cup is below the pen .
+ivan put the vase below the mirror .now the mirror is above the vase .
+the vase is right of the coat .where is the coat ?the coat is to the left of the vase .
+the key is above the coat .where is the coat ?the coat is below the key .
+lily put the ticket inside the basket .now the basket contains the ticket .
+yuki is to the right of ivan .ivan is to the left of yuki .
+lily is right of max .where is max ?max is to the left of lily .
+the sink is below the bottle .the bottle is above the sink .
+lily put the pen inside the cup .now the cup contains the pen .
+the peach is not on the table .it is inside the cabinet .the cabinet contains the peach .
+the clock is below the sink .where is the sink ?the sink is above the clock .
+the window is to the right of the sink .the sink is to the left of the window .
+the forest is north of the market .the market is south of the forest .
+the book is below the table .the table is above the book .
+the mango is not on the table .it is inside the cup .the cup contains the mango .
+the picture is above the bag .where is the bag ?the bag is below the picture .
+the station is north of the store .so the store is to the south .
+jade put the sofa below the ball .now the ball is above the sofa .
+the bottle is to the left of the pen .the pen is to the right of the bottle .
+the mirror is to the right of the vase .the vase is to the left of the mirror .
+lucy is to the right of sam .sam is to the left of lucy .
+yuki is right of max .max is to the left of yuki .
+the closet contains the map .the map is inside the closet .
+the book is right of the bottle .so the bottle is to the left .
+the map is not on the table .it is inside the closet .the closet contains the map .
+the key is above the plate .so the plate is below the key .
+the coat is above the pen .the pen is below the coat .
+ben put the card inside the jar .now the jar contains the card .
+theo put the door below the basket .now the basket is above the door .
+the drawer contains the peach .the peach is inside the drawer .
+rosa put the cup above the bottle .now the bottle is below the cup .
+lucy put the pen inside the cabinet .now the cabinet contains the pen .
+the rug is above the bowl .the bowl is below the rug .
+the picture is above the mirror .so the mirror is below the picture .
+the bed is left of the coat .where is the coat ?the coat is to the right of the bed .
+the sink is below the sofa .the sofa is above the sink .
+the pen is inside the bowl .the bowl contains the pen .
+ivan put the rug above the phone .now the phone is below the rug .
+yuki put the coat below the plate .now the plate is above the coat .
+the lamp is to the right of the bottle .the bottle is to the left of the lamp .
+the basket is right of the sofa .so the sofa is to the left .
+kai put the table below the ball .now the ball is above the table .
+the clock is to the right of the window .the window is to the left of the clock .
+the farm is north of the beach .the beach is south of the farm .
+the rug is above the door .the door is below the rug .
+we drove from the forest to the village .the village is north of the forest .the forest is south of the village .
+the lamp is under the window .the window is on the lamp .
+the bed is right of the door .the door is to the left of the bed .
+the bed is above the ball .so the ball is below the bed .
+the key is below the jar .so the jar is above the key .
+the pen is inside the basket .the basket contains the pen .
+the jar contains the cup .the cup is inside the jar .
+hugo sat beside the rug .the rug is beside hugo .
+the picture is above the key .the key is below the picture .
+we drove from the farm to the tower .the tower is north of the farm .the farm is south of the tower .
+the key is above the coat .so the coat is below the key .
+the table is to the left of the chair .the chair is to the right of the table .
+the basket is below the picture .so the picture is above the basket .
+the rug is beside the shelf .the shelf is beside the rug .
+anna put the peach inside the closet .now the closet contains the peach .
+the hat is to the left of the vase .the vase is to the right of the hat .
+the drawer contains the ball .the ball is inside the drawer .
+the cup is left of the jar .so the jar is to the right .
+the box contains the banana .the banana is inside the box .
+the jar contains the peach .the peach is inside the jar .
+the picture is right of the mirror .where is the mirror ?the mirror is to the left of the picture .
+ben sat beside the bed .the bed is beside ben .
+zoe put the ring inside the suitcase .now the suitcase contains the ring .
+owen put the bottle above the mirror .now the mirror is below the bottle .
+the sink is above the box .where is the box ?the box is below the sink .
+mia is left of owen .where is owen ?owen is to the right of mia .
+ruby sat beside the hat .the hat is beside ruby .
+the hat is to the left of the key .the key is to the right of the hat .
+mia put the jar below the basket .now the basket is above the jar .
+hugo sat beside the coat .the coat is beside hugo .
+the window is above the rug .where is the rug ?the rug is below the window .
+lucy put the sofa below the phone .now the phone is above the sofa .
+yuki is to the left of rosa .rosa is to the right of yuki .
+we drove from the village to the office .the office is south of the village .the village is north of the office .
+the mirror is to the right of the sofa .the sofa is to the left of the mirror .
+ava sat beside the lamp .the lamp is beside ava .
+the vase is above the basket .so the basket is below the vase .
+the lake is north of the farm .so the farm is to the south .
+the store is north of the field .the field is south of the store .
+the market is south of the lake .the lake is north of the market .
+sam put the plate below the window .now the window is above the plate .
+the mirror is above the bed .the bed is below the mirror .
+we drove from the river to the hospital .the hospital is south of the river .the river is north of the hospital .
+the ball is inside the cup .the cup contains the ball .
+the plate is left of the vase .so the vase is to the right .
+the clock is to the left of the mirror .the mirror is to the right of the clock .
+we drove from the bridge to the lake .the lake is north of the bridge .the bridge is south of the lake .
+owen put the box below the door .now the door is above the box .
+the pear is not on the table .it is inside the cabinet .the cabinet contains the pear .
+the window is to the right of the table .the table is to the left of the window .
+the jar is below the bowl .the bowl is above the jar .
+the toy is inside the cabinet .the cabinet contains the toy .
+the coin is inside the bowl .what does the bowl contain ?the bowl contains the coin .
+the jar is above the picture .the picture is below the jar .
+the lamp is to the left of the desk .the desk is to the right of the lamp .
+the bottle is to the right of the sofa .the sofa is to the left of the bottle .
+the box is below the mirror .where is the mirror ?the mirror is above the box .
+the bottle is to the left of the window .the window is to the right of the bottle .
+the bridge is south of the village .the village is north of the bridge .
+the hat is right of the book .so the book is to the left .
+the basket is left of the book .where is the book ?the book is to the right of the basket .
+the basket contains the sock .the sock is inside the basket .
+the ball is on the bag .the bag is under the ball .
+yuki put the bed below the pen .now the pen is above the bed .
+the bowl contains the letter .the letter is inside the bowl .
+the bed is right of the chair .so the chair is to the left .
+lucy put the hat above the basket .now the basket is below the hat .
+max is to the right of kai .kai is to the left of max .
+the jar is to the left of the sink .the sink is to the right of the jar .
+the ball is not on the table .it is inside the bowl .the bowl contains the ball .
+ivan put the mango inside the suitcase .now the suitcase contains the mango .
+ruby sat beside the sink .the sink is beside ruby .
+the suitcase contains the map .the map is inside the suitcase .
+the drawer contains the map .the map is inside the drawer .
+the key is above the ball .where is the ball ?the ball is below the key .
+the pear is inside the cup .what does the cup contain ?the cup contains the pear .
+the picture is above the mirror .where is the mirror ?the mirror is below the picture .
+the tower is south of the bridge .the bridge is north of the tower .
+the coat is left of the door .the door is to the right of the coat .
+the clock is right of the table .where is the table ?the table is to the left of the clock .
+the pear is not on the table .it is inside the box .the box contains the pear .
+yuki put the map inside the jar .now the jar contains the map .
+anna is to the right of iris .iris is to the left of anna .
+iris put the box above the pen .now the pen is below the box .
+sam put the pen inside the drawer .now the drawer contains the pen .
+the clock is to the left of the chair .the chair is to the right of the clock .
+the coat is to the left of the hat .the hat is to the right of the coat .
+we drove from the river to the office .the office is north of the river .the river is south of the office .
+the cup is left of the pen .so the pen is to the right .
+iris is to the right of ivan .ivan is to the left of iris .
+the sofa is below the table .the table is above the sofa .
+the bottle is above the clock .the clock is below the bottle .
+the sock is not on the table .it is inside the bottle .the bottle contains the sock .
+the vase is to the right of the pen .the pen is to the left of the vase .
+ivan put the banana inside the suitcase .now the suitcase contains the banana .
+the hospital is north of the office .the office is south of the hospital .
+the rug is left of the pen .the pen is to the right of the rug .
+the coat is left of the pen .where is the pen ?the pen is to the right of the coat .
+yuki sat beside the sink .the sink is beside yuki .
+ben put the cup above the door .now the door is below the cup .
+kai put the ticket inside the bowl .now the bowl contains the ticket .
+the station is south of the river .so the river is to the north .
+the market is south of the store .so the store is to the north .
+max put the clock above the door .now the door is below the clock .
+ivan put the vase above the basket .now the basket is below the vase .
+the jar contains the ring .the ring is inside the jar .
+the letter is inside the bowl .what does the bowl contain ?the bowl contains the letter .
+the clock is under the table .the table is on the clock .
+the lamp is under the book .the book is on the lamp .
+the desk is right of the basket .so the basket is to the left .
+the clock is above the chair .the chair is below the clock .
+the coat is to the right of the jar .the jar is to the left of the coat .
+we drove from the village to the forest .the forest is north of the village .the village is south of the forest .
+the door is under the sofa .the sofa is on the door .
+the book is left of the basket .where is the basket ?the basket is to the right of the book .
+the clock is to the left of the shelf .the shelf is to the right of the clock .
+the apple is inside the bottle .what does the bottle contain ?the bottle contains the apple .
+the key is under the jar .the jar is on the key .
+owen is right of jade .jade is to the left of owen .
+the shelf is to the right of the bottle .the bottle is to the left of the shelf .
+the key is below the mirror .so the mirror is above the key .
+the cup is left of the rug .the rug is to the right of the cup .
+the phone is left of the coat .the coat is to the right of the phone .
+the mirror is right of the book .so the book is to the left .
+the sink is above the vase .where is the vase ?the vase is below the sink .
+iris is right of hugo .where is hugo ?hugo is to the left of iris .
+the bottle is above the coat .so the coat is below the bottle .
+the cup is inside the drawer .what does the drawer contain ?the drawer contains the cup .
+the bowl contains the apple .the apple is inside the bowl .
+the book is below the sofa .where is the sofa ?the sofa is above the book .
+owen is left of yuki .yuki is to the right of owen .
+the door is below the cup .where is the cup ?the cup is above the door .
+the key is above the vase .where is the vase ?the vase is below the key .
+the desk is to the left of the bed .the bed is to the right of the desk .
+we drove from the school to the station .the station is south of the school .the school is north of the station .
+yuki put the phone inside the bottle .now the bottle contains the phone .
+owen sat beside the ball .the ball is beside owen .
+the desk is beside the sofa .the sofa is beside the desk .
+the pear is not on the table .it is inside the bottle .the bottle contains the pear .
+the book is below the coat .where is the coat ?the coat is above the book .
+the school is south of the market .so the market is to the north .
+we drove from the village to the store .the store is south of the village .the village is north of the store .
+the window is to the left of the basket .the basket is to the right of the window .
+the window is right of the vase .where is the vase ?the vase is to the left of the window .
+the basket is above the picture .the picture is below the basket .
+the coat is above the key .so the key is below the coat .
+the clock is on the chair .the chair is under the clock .
+the peach is not on the table .it is inside the jar .the jar contains the peach .
+the vase is right of the table .the table is to the left of the vase .
+the beach is north of the river .the river is south of the beach .
+ava put the ball below the key .now the key is above the ball .
+the table is below the cup .where is the cup ?the cup is above the table .
+the phone is under the rug .the rug is on the phone .
+the clock is to the left of the bottle .the bottle is to the right of the clock .
+the table is to the left of the bottle .the bottle is to the right of the table .
+the mango is inside the fridge .what does the fridge contain ?the fridge contains the mango .
+theo is to the left of jade .jade is to the right of theo .
+rosa put the ball inside the jar .now the jar contains the ball .
+sam is to the right of rosa .rosa is to the left of sam .
+the ball is above the sofa .the sofa is below the ball .
+the bed is below the coat .the coat is above the bed .
+the plate is beside the bed .the bed is beside the plate .
+the field is north of the beach .so the beach is to the south .
+max put the ticket inside the cabinet .now the cabinet contains the ticket .
+the banana is not on the table .it is inside the bowl .the bowl contains the banana .
+the cup is right of the basket .where is the basket ?the basket is to the left of the cup .
+ava put the key above the door .now the door is below the key .
+ben is left of max .max is to the right of ben .
+the mirror is below the bottle .the bottle is above the mirror .
+the banana is inside the drawer .what does the drawer contain ?the drawer contains the banana .
+the bottle is above the bed .where is the bed ?the bed is below the bottle .
+the chair is above the mirror .the mirror is below the chair .
+the mango is inside the box .the box contains the mango .
+the ball is inside the jar .the jar contains the ball .
+theo is right of mia .mia is to the left of theo .
+the coat is on the picture .the picture is under the coat .
+the forest is north of the bank .so the bank is to the south .
+the picture is below the pen .the pen is above the picture .
+the clock is under the pen .the pen is on the clock .
+the jar is below the bag .so the bag is above the jar .
+mia is left of max .so max is to the right .
+the pear is not on the table .it is inside the basket .the basket contains the pear .
+jade is to the left of ben .ben is to the right of jade .
+the basket is beside the coat .the coat is beside the basket .
+the ball is above the coat .where is the coat ?the coat is below the ball .
+the peach is inside the fridge .what does the fridge contain ?the fridge contains the peach .
+the sofa is below the pen .the pen is above the sofa .
+the box is under the basket .the basket is on the box .
+the window is to the left of the bag .the bag is to the right of the window .
+the box is below the jar .the jar is above the box .
+the mirror is right of the window .so the window is to the left .
+the peach is inside the cabinet .the cabinet contains the peach .
+the mirror is right of the key .where is the key ?the key is to the left of the mirror .
+lucy is to the right of anna .anna is to the left of lucy .
+we drove from the village to the market .the market is south of the village .the village is north of the market .
+the chair is below the box .where is the box ?the box is above the chair .
+the table is right of the basket .where is the basket ?the basket is to the left of the table .
+rosa put the key inside the suitcase .now the suitcase contains the key .
+the mirror is to the right of the bowl .the bowl is to the left of the mirror .
+the mirror is right of the door .where is the door ?the door is to the left of the mirror .
+the bed is to the left of the sofa .the sofa is to the right of the bed .
+the cup is inside the box .the box contains the cup .
+jade put the door below the table .now the table is above the door .
+the sofa is left of the table .where is the table ?the table is to the right of the sofa .
+the coat is to the left of the rug .the rug is to the right of the coat .
+the cabinet contains the coin .the coin is inside the cabinet .
+the letter is not on the table .it is inside the jar .the jar contains the letter .
+lily put the key inside the bottle .now the bottle contains the key .
+the table is beside the coat .the coat is beside the table .
+the door is below the mirror .the mirror is above the door .
+the chair is above the clock .the clock is below the chair .
+the jar is above the box .so the box is below the jar .
+the key is right of the book .where is the book ?the book is to the left of the key .
+the toy is not on the table .it is inside the box .the box contains the toy .
+the bag is left of the chair .the chair is to the right of the bag .
+the jar is beside the basket .the basket is beside the jar .
+the school is north of the tower .the tower is south of the school .
+the key is inside the box .what does the box contain ?the box contains the key .
+the pen is to the left of the phone .the phone is to the right of the pen .
+the pear is not on the table .it is inside the closet .the closet contains the pear .
+hugo sat beside the bag .the bag is beside hugo .
+the table is below the hat .so the hat is above the table .
+the peach is inside the suitcase .what does the suitcase contain ?the suitcase contains the peach .
+ava put the cup inside the box .now the box contains the cup .
+zoe put the chair below the pen .now the pen is above the chair .
+the door is to the right of the chair .the chair is to the left of the door .
+the sofa is below the cup .so the cup is above the sofa .
+the chair is below the cup .the cup is above the chair .
+the mirror is above the pen .so the pen is below the mirror .
+the office is south of the lake .so the lake is to the north .
+the cup is below the phone .the phone is above the cup .
+we drove from the beach to the lake .the lake is north of the beach .the beach is south of the lake .
+the window is above the pen .where is the pen ?the pen is below the window .
+the picture is beside the rug .the rug is beside the picture .
+the bowl is to the left of the chair .the chair is to the right of the bowl .
+the chair is beside the book .the book is beside the chair .
+yuki sat beside the chair .the chair is beside yuki .
+the table is below the bottle .the bottle is above the table .
+the ring is inside the jar .what does the jar contain ?the jar contains the ring .
+iris is left of theo .theo is to the right of iris .
+the lake is south of the bank .so the bank is to the north .
+max is to the right of ravi .ravi is to the left of max .
+the box contains the ticket .the ticket is inside the box .
+the plate is right of the coat .where is the coat ?the coat is to the left of the plate .
+lucy put the mango inside the jar .now the jar contains the mango .
+the bed is above the chair .so the chair is below the bed .
+the mirror is on the bed .the bed is under the mirror .
+we drove from the office to the station .the station is south of the office .the office is north of the station .
+the key is left of the window .where is the window ?the window is to the right of the key .
+the sofa is below the picture .the picture is above the sofa .
+anna sat beside the bed .the bed is beside anna .
+ivan sat beside the cup .the cup is beside ivan .
+sam put the sofa above the pen .now the pen is below the sofa .
+the rug is to the right of the coat .the coat is to the left of the rug .
+the plate is below the clock .so the clock is above the plate .
+the mango is not on the table .it is inside the cabinet .the cabinet contains the mango .
+lily put the apple inside the bowl .now the bowl contains the apple .
+anna put the ball below the phone .now the phone is above the ball .
+iris put the sink below the bowl .now the bowl is above the sink .

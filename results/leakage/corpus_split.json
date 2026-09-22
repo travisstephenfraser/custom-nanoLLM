@@ -1,0 +1,308 @@
+{
+  "corpus_files": [
+    "corpus_split/negation.txt",
+    "corpus_split/spatial.txt"
+  ],
+  "passages_scanned": 8408,
+  "unique_passages": 6146,
+  "self_test": "passed",
+  "rules": [
+    "exact_prompt",
+    "signature (>=3 content words of one case)",
+    "answer_list",
+    "banned_pair",
+    "subject_pattern",
+    "shared_run (>= 8 tokens)"
+  ],
+  "violations": [],
+  "longest_shared_run_by_case": {
+    "lang_01": {
+      "category": "domain_context",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_02": {
+      "category": "domain_context",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_03": {
+      "category": "domain_context",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_04": {
+      "category": "domain_context",
+      "longest_shared_run": 2,
+      "prompt_tokens": 7,
+      "example_passage": "the mango is inside the suitcase ."
+    },
+    "lang_05": {
+      "category": "domain_context",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_06": {
+      "category": "domain_context",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_07": {
+      "category": "domain_context",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_08": {
+      "category": "domain_context",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_09": {
+      "category": "domain_place",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "we drove from the lake to the store ."
+    },
+    "lang_10": {
+      "category": "domain_place",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "we drove from the beach to the market ."
+    },
+    "lang_11": {
+      "category": "domain_place",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "the office is south of the bank ."
+    },
+    "lang_12": {
+      "category": "domain_place",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "the mango is inside the suitcase ."
+    },
+    "lang_13": {
+      "category": "domain_place",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "the store is north of the station ."
+    },
+    "lang_14": {
+      "category": "domain_place",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "the office is north of the farm ."
+    },
+    "lang_15": {
+      "category": "domain_place",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "the river is south of the hospital ."
+    },
+    "lang_16": {
+      "category": "domain_place",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "the school is north of the tower ."
+    },
+    "lang_17": {
+      "category": "new_wording",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_18": {
+      "category": "new_wording",
+      "longest_shared_run": 2,
+      "prompt_tokens": 8,
+      "example_passage": "the school is north of the tower ."
+    },
+    "lang_19": {
+      "category": "new_wording",
+      "longest_shared_run": 2,
+      "prompt_tokens": 8,
+      "example_passage": "the office is south of the bank ."
+    },
+    "lang_20": {
+      "category": "new_wording",
+      "longest_shared_run": 2,
+      "prompt_tokens": 8,
+      "example_passage": "the bowl contains the pear ."
+    },
+    "lang_21": {
+      "category": "new_wording",
+      "longest_shared_run": 2,
+      "prompt_tokens": 8,
+      "example_passage": "the bus is gray ."
+    },
+    "lang_22": {
+      "category": "new_wording",
+      "longest_shared_run": 1,
+      "prompt_tokens": 8,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_23": {
+      "category": "new_wording",
+      "longest_shared_run": 2,
+      "prompt_tokens": 8,
+      "example_passage": "we drove from the lake to the store ."
+    },
+    "lang_24": {
+      "category": "new_wording",
+      "longest_shared_run": 1,
+      "prompt_tokens": 8,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_25": {
+      "category": "grammar",
+      "longest_shared_run": 1,
+      "prompt_tokens": 2,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_26": {
+      "category": "grammar",
+      "longest_shared_run": 1,
+      "prompt_tokens": 2,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_27": {
+      "category": "grammar",
+      "longest_shared_run": 1,
+      "prompt_tokens": 2,
+      "example_passage": "mia wanted to drink lemonade , but she did not ."
+    },
+    "lang_28": {
+      "category": "opposites",
+      "longest_shared_run": 1,
+      "prompt_tokens": 5,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_29": {
+      "category": "opposites",
+      "longest_shared_run": 1,
+      "prompt_tokens": 5,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_30": {
+      "category": "opposites",
+      "longest_shared_run": 1,
+      "prompt_tokens": 5,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_31": {
+      "category": "negation",
+      "longest_shared_run": 4,
+      "prompt_tokens": 13,
+      "example_passage": "it is blue ."
+    },
+    "lang_32": {
+      "category": "negation",
+      "longest_shared_run": 3,
+      "prompt_tokens": 12,
+      "example_passage": "ravi did not buy pasta ."
+    },
+    "lang_33": {
+      "category": "negation",
+      "longest_shared_run": 4,
+      "prompt_tokens": 13,
+      "example_passage": "the garage is not open ."
+    },
+    "lang_34": {
+      "category": "reference",
+      "longest_shared_run": 1,
+      "prompt_tokens": 9,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_35": {
+      "category": "reference",
+      "longest_shared_run": 1,
+      "prompt_tokens": 13,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_36": {
+      "category": "reference",
+      "longest_shared_run": 1,
+      "prompt_tokens": 9,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_37": {
+      "category": "sequence",
+      "longest_shared_run": 3,
+      "prompt_tokens": 13,
+      "example_passage": "the hat is under the cup ."
+    },
+    "lang_38": {
+      "category": "sequence",
+      "longest_shared_run": 1,
+      "prompt_tokens": 9,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_39": {
+      "category": "sequence",
+      "longest_shared_run": 3,
+      "prompt_tokens": 14,
+      "example_passage": "we looked at the bus ."
+    },
+    "lang_40": {
+      "category": "spatial_relations",
+      "longest_shared_run": 3,
+      "prompt_tokens": 11,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_41": {
+      "category": "spatial_relations",
+      "longest_shared_run": 3,
+      "prompt_tokens": 10,
+      "example_passage": "so the bowl is above the bag ."
+    },
+    "lang_42": {
+      "category": "spatial_relations",
+      "longest_shared_run": 4,
+      "prompt_tokens": 13,
+      "example_passage": "so the mirror is to the right ."
+    },
+    "lang_43": {
+      "category": "everyday_knowledge",
+      "longest_shared_run": 0,
+      "prompt_tokens": 3,
+      "example_passage": ""
+    },
+    "lang_44": {
+      "category": "everyday_knowledge",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "mia wanted to drink lemonade , but she did not ."
+    },
+    "lang_45": {
+      "category": "everyday_knowledge",
+      "longest_shared_run": 1,
+      "prompt_tokens": 10,
+      "example_passage": "mia wanted to drink lemonade , but she did not ."
+    },
+    "lang_46": {
+      "category": "categories_and_analogies",
+      "longest_shared_run": 1,
+      "prompt_tokens": 10,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_47": {
+      "category": "categories_and_analogies",
+      "longest_shared_run": 1,
+      "prompt_tokens": 12,
+      "example_passage": "it is inside the jar ."
+    },
+    "lang_48": {
+      "category": "categories_and_analogies",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "the apple is inside the bowl ."
+    }
+  }
+}

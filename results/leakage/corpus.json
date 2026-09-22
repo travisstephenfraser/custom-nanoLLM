@@ -1,0 +1,308 @@
+{
+  "corpus_files": [
+    "corpus/negation.txt",
+    "corpus/spatial.txt"
+  ],
+  "passages_scanned": 3200,
+  "unique_passages": 3200,
+  "self_test": "passed",
+  "rules": [
+    "exact_prompt",
+    "signature (>=3 content words of one case)",
+    "answer_list",
+    "banned_pair",
+    "subject_pattern",
+    "shared_run (>= 8 tokens)"
+  ],
+  "violations": [],
+  "longest_shared_run_by_case": {
+    "lang_01": {
+      "category": "domain_context",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_02": {
+      "category": "domain_context",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_03": {
+      "category": "domain_context",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_04": {
+      "category": "domain_context",
+      "longest_shared_run": 2,
+      "prompt_tokens": 7,
+      "example_passage": "lucy put the mango inside the jar . now the jar contains the mango ."
+    },
+    "lang_05": {
+      "category": "domain_context",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_06": {
+      "category": "domain_context",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_07": {
+      "category": "domain_context",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_08": {
+      "category": "domain_context",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_09": {
+      "category": "domain_place",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "we looked at the flag . it is not red . it is yellow . yes , the flag is yellow ."
+    },
+    "lang_10": {
+      "category": "domain_place",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "the market is south of the lake . the lake is north of the market ."
+    },
+    "lang_11": {
+      "category": "domain_place",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "the hospital is north of the bank . so the bank is to the south ."
+    },
+    "lang_12": {
+      "category": "domain_place",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "we looked at the flag . it is not red . it is yellow . yes , the flag is yellow ."
+    },
+    "lang_13": {
+      "category": "domain_place",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "we looked at the flag . it is not red . it is yellow . yes , the flag is yellow ."
+    },
+    "lang_14": {
+      "category": "domain_place",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "we looked at the flag . it is not red . it is yellow . yes , the flag is yellow ."
+    },
+    "lang_15": {
+      "category": "domain_place",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "the hospital is north of the bank . so the bank is to the south ."
+    },
+    "lang_16": {
+      "category": "domain_place",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "we looked at the flag . it is not red . it is yellow . yes , the flag is yellow ."
+    },
+    "lang_17": {
+      "category": "new_wording",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_18": {
+      "category": "new_wording",
+      "longest_shared_run": 2,
+      "prompt_tokens": 8,
+      "example_passage": "the forest is south of the school . so the school is to the north ."
+    },
+    "lang_19": {
+      "category": "new_wording",
+      "longest_shared_run": 2,
+      "prompt_tokens": 8,
+      "example_passage": "the hospital is north of the bank . so the bank is to the south ."
+    },
+    "lang_20": {
+      "category": "new_wording",
+      "longest_shared_run": 2,
+      "prompt_tokens": 8,
+      "example_passage": "the pear is inside the cup . what does the cup contain ? the cup contains the pear ."
+    },
+    "lang_21": {
+      "category": "new_wording",
+      "longest_shared_run": 2,
+      "prompt_tokens": 8,
+      "example_passage": "the farm is south of the station . the station is north of the farm ."
+    },
+    "lang_22": {
+      "category": "new_wording",
+      "longest_shared_run": 1,
+      "prompt_tokens": 8,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_23": {
+      "category": "new_wording",
+      "longest_shared_run": 2,
+      "prompt_tokens": 8,
+      "example_passage": "the river is north of the store . so the store is to the south ."
+    },
+    "lang_24": {
+      "category": "new_wording",
+      "longest_shared_run": 1,
+      "prompt_tokens": 8,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_25": {
+      "category": "grammar",
+      "longest_shared_run": 1,
+      "prompt_tokens": 2,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_26": {
+      "category": "grammar",
+      "longest_shared_run": 1,
+      "prompt_tokens": 2,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_27": {
+      "category": "grammar",
+      "longest_shared_run": 1,
+      "prompt_tokens": 2,
+      "example_passage": "zoe wanted to take the clock , but she did not . she took the hat . zoe took the hat ."
+    },
+    "lang_28": {
+      "category": "opposites",
+      "longest_shared_run": 1,
+      "prompt_tokens": 5,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_29": {
+      "category": "opposites",
+      "longest_shared_run": 1,
+      "prompt_tokens": 5,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_30": {
+      "category": "opposites",
+      "longest_shared_run": 1,
+      "prompt_tokens": 5,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_31": {
+      "category": "negation",
+      "longest_shared_run": 6,
+      "prompt_tokens": 13,
+      "example_passage": "we looked at the flag . it is not red . it is yellow . yes , the flag is yellow ."
+    },
+    "lang_32": {
+      "category": "negation",
+      "longest_shared_run": 3,
+      "prompt_tokens": 12,
+      "example_passage": "mia did not buy the book . she bought pasta instead . so mia bought pasta ."
+    },
+    "lang_33": {
+      "category": "negation",
+      "longest_shared_run": 6,
+      "prompt_tokens": 13,
+      "example_passage": "the shop is not dirty and it is not ready . it is closed . the shop is closed ."
+    },
+    "lang_34": {
+      "category": "reference",
+      "longest_shared_run": 1,
+      "prompt_tokens": 9,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_35": {
+      "category": "reference",
+      "longest_shared_run": 2,
+      "prompt_tokens": 13,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_36": {
+      "category": "reference",
+      "longest_shared_run": 1,
+      "prompt_tokens": 9,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_37": {
+      "category": "sequence",
+      "longest_shared_run": 3,
+      "prompt_tokens": 13,
+      "example_passage": "the cup is below the coat . where is the coat ? the coat is above the cup ."
+    },
+    "lang_38": {
+      "category": "sequence",
+      "longest_shared_run": 2,
+      "prompt_tokens": 9,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_39": {
+      "category": "sequence",
+      "longest_shared_run": 3,
+      "prompt_tokens": 14,
+      "example_passage": "we looked at the bus . it is not red . it is yellow . yes , the bus is yellow ."
+    },
+    "lang_40": {
+      "category": "spatial_relations",
+      "longest_shared_run": 5,
+      "prompt_tokens": 11,
+      "example_passage": "the window is to the left of the bag . the bag is to the right of the window ."
+    },
+    "lang_41": {
+      "category": "spatial_relations",
+      "longest_shared_run": 6,
+      "prompt_tokens": 10,
+      "example_passage": "the hat is to the left of the desk . the desk is to the right of the hat ."
+    },
+    "lang_42": {
+      "category": "spatial_relations",
+      "longest_shared_run": 6,
+      "prompt_tokens": 13,
+      "example_passage": "the window is below the box . the box is above the window ."
+    },
+    "lang_43": {
+      "category": "everyday_knowledge",
+      "longest_shared_run": 0,
+      "prompt_tokens": 3,
+      "example_passage": ""
+    },
+    "lang_44": {
+      "category": "everyday_knowledge",
+      "longest_shared_run": 1,
+      "prompt_tokens": 7,
+      "example_passage": "the shelf is to the right of the lamp . the lamp is to the left of the shelf ."
+    },
+    "lang_45": {
+      "category": "everyday_knowledge",
+      "longest_shared_run": 1,
+      "prompt_tokens": 10,
+      "example_passage": "the shelf is to the right of the lamp . the lamp is to the left of the shelf ."
+    },
+    "lang_46": {
+      "category": "categories_and_analogies",
+      "longest_shared_run": 1,
+      "prompt_tokens": 10,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_47": {
+      "category": "categories_and_analogies",
+      "longest_shared_run": 1,
+      "prompt_tokens": 12,
+      "example_passage": "the sock is not purple and it is not pink . it is green . the sock is green ."
+    },
+    "lang_48": {
+      "category": "categories_and_analogies",
+      "longest_shared_run": 2,
+      "prompt_tokens": 10,
+      "example_passage": "the apple is inside the bottle . what does the bottle contain ? the bottle contains the apple ."
+    }
+  }
+}
